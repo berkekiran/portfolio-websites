@@ -1,0 +1,741 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #161616;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  overflow-x: hidden;
+  opacity: 0; }
+
+::-webkit-scrollbar {
+  width: 12px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+::-webkit-scrollbar-thumb {
+  background: #dfca60;
+  border-radius: 10px; }
+
+.wrapper {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 1600px; }
+  .wrapper #profile-link {
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.8;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.24s ease; }
+    .wrapper #profile-link:hover {
+      opacity: 0.32; }
+
+.yellow {
+  color: #dfca60; }
+
+.intro {
+  margin-top: 348px; }
+  .intro h1 {
+    margin-left: 134px;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8;
+    line-height: 90px; }
+  .intro .intro-img {
+    position: relative;
+    width: 1600px;
+    height: 880px;
+    margin-top: 100px;
+    background: linear-gradient(0deg, transparent, #161616), url("../images/recent-work.png") center top no-repeat;
+    background-size: 160%;
+    opacity: 0; }
+  .intro #intro0 {
+    opacity: 0; }
+  .intro #intro1 {
+    opacity: 0; }
+  .intro #intro2 {
+    opacity: 0; }
+  .intro #intro3 {
+    opacity: 0; }
+
+.characters {
+  margin-top: 144px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 144px; }
+  .characters h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 144px; }
+  .characters .characters-ul {
+    display: inline-block;
+    width: 1600px;
+    padding-left: 0px;
+    margin-left: -40px;
+    list-style: none; }
+    .characters .characters-ul .character {
+      display: inline-block;
+      width: 370px;
+      height: 575px;
+      margin-left: 40px;
+      margin-bottom: 80px;
+      text-align: left; }
+      .characters .characters-ul .character a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        color: #ffffff;
+        text-decoration: none;
+        opacity: 0.66;
+        background: linear-gradient(transparent 50%, #161616), #DFCA60;
+        transition: all 0.24s ease; }
+        .characters .characters-ul .character a:hover {
+          opacity: 1;
+          cursor: pointer; }
+
+.project-name {
+  position: absolute;
+  margin-top: 465px;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-left: 38px; }
+
+.category-year {
+  position: absolute;
+  margin-top: 472px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  opacity: 0.35;
+  margin-left: 38px;
+  line-height: 34px; }
+
+.other-works-img {
+  position: relative;
+  width: 1600px;
+  height: 360px;
+  margin-top: 144px;
+  background: linear-gradient(0deg, transparent, #161616), url("../images/other-works-img.png") center top no-repeat; }
+
+.load-more {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  color: #dbc75f;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 36px;
+  transition: all 0.24s ease; }
+  .load-more:hover {
+    cursor: pointer;
+    opacity: 0.32; }
+
+.load-more-o {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  color: #dbc75f;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 36px;
+  transition: all 0.24s ease; }
+  .load-more-o:hover {
+    cursor: pointer;
+    opacity: 0.32; }
+  .load-more-o span {
+    margin-left: 40px; }
+
+.other-works {
+  margin-top: 144px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 144px; }
+  .other-works h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 144px; }
+  .other-works .other-works-ul {
+    display: inline-block;
+    width: 1600px;
+    padding-left: 0px;
+    margin-left: -40px;
+    list-style: none; }
+    .other-works .other-works-ul .other-work {
+      display: inline-block;
+      background: linear-gradient(transparent 50%, #161616), #DFCA60;
+      width: 370px;
+      height: 320px;
+      margin-left: 40px;
+      margin-bottom: 80px;
+      text-align: left; }
+      .other-works .other-works-ul .other-work .project-name {
+        position: absolute;
+        margin-top: 230px;
+        font-size: 20px; }
+      .other-works .other-works-ul .other-work .category-year {
+        position: absolute;
+        margin-top: 234px;
+        font-size: 14px; }
+      .other-works .other-works-ul .other-work a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        color: #ffffff;
+        opacity: 0.66;
+        text-decoration: none;
+        transition: all 0.24s ease; }
+        .other-works .other-works-ul .other-work a:hover {
+          opacity: 1;
+          cursor: pointer; }
+
+.footer {
+  margin-top: 200px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 200px; }
+  .footer hr {
+    width: 72px;
+    height: 3px;
+    border: 0;
+    background: #ffffff; }
+  .footer h2 {
+    margin-top: 144px;
+    font-size: 28px; }
+    .footer h2 a {
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: #ffffff solid 2px;
+      transition: all 0.24s ease; }
+      .footer h2 a:hover {
+        opacity: 0.32; }
+  .footer h3 {
+    margin-top: 144px;
+    font-size: 16px;
+    letter-spacing: 2px; }
+  .footer .social-links {
+    display: inline-block;
+    width: 1600px;
+    padding-left: 0px;
+    margin-left: -20px;
+    list-style: none; }
+    .footer .social-links .social-link {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 20px;
+      text-align: left;
+      transition: all 0.24s ease; }
+      .footer .social-links .social-link:hover {
+        opacity: 0.32; }
+
+.about {
+  margin-top: 244px; }
+  .about .photo {
+    display: block;
+    height: 1206px;
+    width: 594px;
+    position: absolute;
+    z-index: -1;
+    float: left;
+    background: linear-gradient(0deg, transparent, #161616), url("../images/photo.png") center top no-repeat; }
+  .about p {
+    padding-top: 166px;
+    line-height: 58px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: right; }
+    .about p span {
+      opacity: 0.32; }
+
+.skills-tools {
+  margin-top: 366px;
+  text-align: center; }
+  .skills-tools h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .skills-tools h2 {
+    margin-top: 144px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .skills-tools p {
+    margin-top: 100px;
+    color: #DFCA60;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .skills-tools iframe {
+    margin-top: 100px;
+    margin-bottom: 56px; }
+
+@media screen and (max-width: 540px) {
+  .wrapper {
+    width: 320px; }
+    .wrapper #profile-link {
+      top: 100px;
+      right: 24px;
+      font-size: 1.6rem; }
+
+  .intro {
+    margin-top: 300px; }
+    .intro h1 {
+      margin-left: 24px;
+      font-size: 32px;
+      line-height: 40px; }
+    .intro .intro-img {
+      width: 320px;
+      height: 540px;
+      margin-top: 64px;
+      background-size: 400%; }
+
+  .characters {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .characters h1 {
+      font-size: 28px;
+      margin-bottom: 96px; }
+    .characters .characters-ul {
+      width: 320px;
+      margin-left: 0px; }
+      .characters .characters-ul .character {
+        display: inline-block;
+        width: 320px;
+        height: 425px;
+        margin-left: 0px;
+        margin-bottom: 60px; }
+
+  .project-name {
+    margin-top: 317px;
+    margin-left: 38px; }
+
+  .category-year {
+    margin-top: 325px;
+    margin-left: 38px; }
+
+  .other-works-img {
+    position: relative;
+    width: 320px;
+    height: 360px;
+    margin-top: 96px;
+    background-position: left top; }
+
+  .other-works {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .other-works h1 {
+      font-size: 28px;
+      margin-bottom: 96px; }
+    .other-works .other-works-ul {
+      width: 320px;
+      margin-left: 0px; }
+      .other-works .other-works-ul .other-work {
+        width: 320px;
+        height: 320px;
+        margin-left: 0px;
+        margin-bottom: 80px; }
+
+  .load-more-o span {
+    margin-left: 0px; }
+
+  .footer {
+    margin-top: 144px;
+    margin-bottom: 96px; }
+    .footer h2 {
+      margin-top: 96px;
+      font-size: 22px; }
+    .footer h3 {
+      margin-top: 96px;
+      font-size: 14px; }
+    .footer .social-links {
+      width: 320px;
+      padding-left: 0px;
+      margin: auto; }
+      .footer .social-links .social-link {
+        margin-left: 10px;
+        margin-top: 40px; }
+
+  .about {
+    margin-top: 144px; }
+    .about .photo {
+      margin-left: -20px;
+      height: 1206px;
+      width: 360px; }
+    .about p {
+      padding-top: 166px;
+      line-height: 38px;
+      font-size: 18px; }
+
+  .skills-tools {
+    margin-top: 144px; }
+    .skills-tools h1 {
+      font-size: 28px; }
+    .skills-tools h2 {
+      margin-top: 96px;
+      font-size: 28px; }
+    .skills-tools p {
+      margin-top: 96px;
+      font-size: 22px;
+      line-height: 46px; }
+    .skills-tools iframe {
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width: 320px;
+      height: 180px; } }
+@media screen and (max-width: 960px) and (min-width: 540px) {
+  .wrapper {
+    width: 540px; }
+    .wrapper #profile-link {
+      top: 124px;
+      right: 24px;
+      font-size: 1.6rem; }
+
+  .intro {
+    margin-top: 300px; }
+    .intro h1 {
+      margin-left: 24px;
+      font-size: 32px;
+      line-height: 40px; }
+    .intro .intro-img {
+      width: 540px;
+      height: 680px;
+      margin-top: 64px;
+      background-size: 400%; }
+
+  .characters {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .characters h1 {
+      font-size: 28px;
+      margin-bottom: 96px; }
+    .characters .characters-ul {
+      width: 370px;
+      margin-left: 0px; }
+      .characters .characters-ul .character {
+        display: inline-block;
+        width: 370px;
+        height: 525px;
+        margin-left: 0px;
+        margin-bottom: 60px; }
+
+  .project-name {
+    margin-top: 417px;
+    margin-left: 38px; }
+
+  .category-year {
+    margin-top: 425px;
+    margin-left: 38px; }
+
+  .other-works-img {
+    position: relative;
+    width: 540px;
+    height: 360px;
+    margin-top: 96px;
+    background-position: left top; }
+
+  .other-works {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .other-works h1 {
+      font-size: 28px;
+      margin-bottom: 96px; }
+    .other-works .other-works-ul {
+      width: 370px;
+      margin-left: 0px; }
+      .other-works .other-works-ul .other-work {
+        width: 370px;
+        height: 320px;
+        margin-left: 0px;
+        margin-bottom: 80px; }
+
+  .load-more-o span {
+    margin-left: 0px; }
+
+  .footer {
+    margin-top: 144px;
+    margin-bottom: 96px; }
+    .footer h2 {
+      margin-top: 96px;
+      font-size: 22px; }
+    .footer h3 {
+      margin-top: 96px;
+      font-size: 14px; }
+    .footer .social-links {
+      width: 320px;
+      padding-left: 0px;
+      margin: auto; }
+      .footer .social-links .social-link {
+        margin-left: 10px;
+        margin-top: 40px; }
+
+  .about {
+    margin-top: 144px; }
+    .about .photo {
+      margin-left: -20px;
+      height: 1206px;
+      width: 560px; }
+    .about p {
+      padding-top: 166px;
+      line-height: 38px;
+      font-size: 18px; }
+
+  .skills-tools {
+    margin-top: 144px; }
+    .skills-tools h1 {
+      font-size: 28px; }
+    .skills-tools h2 {
+      margin-top: 96px;
+      font-size: 28px; }
+    .skills-tools p {
+      margin-top: 96px;
+      font-size: 22px;
+      line-height: 46px; }
+    .skills-tools iframe {
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width: 540px;
+      height: 280px; } }
+@media screen and (max-width: 1260px) and (min-width: 960px) {
+  .wrapper {
+    width: 960px; }
+    .wrapper #profile-link {
+      top: 124px;
+      font-size: 2rem; }
+
+  .intro {
+    margin-top: 300px; }
+    .intro h1 {
+      margin-left: 104px;
+      font-size: 52px;
+      line-height: 84px; }
+    .intro .intro-img {
+      width: 960px;
+      height: 1000px;
+      margin-top: 64px;
+      background-size: 420%; }
+
+  .characters {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .characters h1 {
+      font-size: 34px;
+      margin-bottom: 96px; }
+    .characters .characters-ul {
+      width: 960px;
+      margin-left: 0px; }
+      .characters .characters-ul .character {
+        display: inline-block;
+        width: 370px;
+        height: 525px;
+        margin-left: 40px;
+        margin-bottom: 60px; }
+
+  .project-name {
+    margin-top: 417px;
+    margin-left: 38px; }
+
+  .category-year {
+    margin-top: 425px;
+    margin-left: 38px; }
+
+  .other-works-img {
+    position: relative;
+    width: 960px;
+    height: 360px;
+    margin-top: 96px;
+    background-position: left top; }
+
+  .other-works {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .other-works h1 {
+      font-size: 34px;
+      margin-bottom: 96px; }
+    .other-works .other-works-ul {
+      width: 960px;
+      margin-left: 0px; }
+      .other-works .other-works-ul .other-work {
+        width: 370px;
+        height: 320px;
+        margin-left: 40px;
+        margin-bottom: 80px; }
+
+  .load-more-o span {
+    margin-left: 0px; }
+
+  .footer {
+    margin-top: 200px;
+    margin-bottom: 200px; }
+    .footer h2 {
+      margin-top: 144px;
+      font-size: 28px; }
+    .footer h3 {
+      margin-top: 144px;
+      font-size: 16px; }
+    .footer .social-links {
+      width: 960px;
+      padding-left: 0px;
+      margin: auto; }
+      .footer .social-links .social-link {
+        margin-left: 20px;
+        margin-top: 20px; }
+
+  .about {
+    margin-top: 144px; }
+    .about .photo {
+      margin-left: -20px;
+      height: 1206px;
+      width: 540px; }
+    .about p {
+      padding-top: 166px;
+      line-height: 38px;
+      font-size: 18px; }
+
+  .skills-tools {
+    margin-top: 144px; }
+    .skills-tools h1 {
+      font-size: 28px; }
+    .skills-tools h2 {
+      margin-top: 96px;
+      font-size: 28px; }
+    .skills-tools p {
+      margin-top: 96px;
+      font-size: 22px;
+      line-height: 46px; }
+    .skills-tools iframe {
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width: 960px;
+      height: 540px; } }
+@media screen and (max-width: 1580px) and (min-width: 1280px) {
+  .wrapper {
+    width: 1280px; }
+    .wrapper #profile-link {
+      top: 124px;
+      font-size: 2rem; }
+
+  .intro {
+    margin-top: 300px; }
+    .intro h1 {
+      margin-left: 104px;
+      font-size: 52px;
+      line-height: 84px; }
+    .intro .intro-img {
+      width: 1280px;
+      height: 1000px;
+      margin-top: 64px;
+      background-size: 320%; }
+
+  .characters {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .characters h1 {
+      font-size: 34px;
+      margin-bottom: 96px; }
+    .characters .characters-ul {
+      width: 1280px;
+      margin-left: 0px; }
+      .characters .characters-ul .character {
+        display: inline-block;
+        width: 370px;
+        height: 525px;
+        margin-left: 40px;
+        margin-bottom: 60px; }
+
+  .project-name {
+    margin-top: 417px;
+    margin-left: 38px; }
+
+  .category-year {
+    margin-top: 425px;
+    margin-left: 38px; }
+
+  .other-works-img {
+    position: relative;
+    width: 1280px;
+    height: 360px;
+    margin-top: 96px;
+    background-position: left top; }
+
+  .other-works {
+    margin-top: 96px;
+    margin-bottom: 96px; }
+    .other-works h1 {
+      font-size: 34px;
+      margin-bottom: 96px; }
+    .other-works .other-works-ul {
+      width: 1280px;
+      margin-left: 0px; }
+      .other-works .other-works-ul .other-work {
+        width: 370px;
+        height: 320px;
+        margin-left: 40px;
+        margin-bottom: 80px; }
+
+  .load-more-o span {
+    margin-left: 0px; }
+
+  .footer {
+    margin-top: 200px;
+    margin-bottom: 200px; }
+    .footer h2 {
+      margin-top: 144px;
+      font-size: 28px; }
+    .footer h3 {
+      margin-top: 144px;
+      font-size: 16px; }
+    .footer .social-links {
+      width: 1280px;
+      padding-left: 0px;
+      margin: auto; }
+      .footer .social-links .social-link {
+        margin-left: 20px;
+        margin-top: 20px; }
+
+  .about {
+    margin-top: 144px; }
+    .about .photo {
+      margin-left: -20px;
+      height: 1206px;
+      width: 540px; }
+    .about p {
+      padding-top: 166px;
+      line-height: 58px;
+      font-size: 26px; }
+
+  .skills-tools {
+    margin-top: 300px; }
+    .skills-tools h1 {
+      font-size: 34px; }
+    .skills-tools h2 {
+      margin-top: 96px;
+      font-size: 34px; }
+    .skills-tools p {
+      margin-top: 96px;
+      font-size: 28px;
+      line-height: 56px; }
+    .skills-tools iframe {
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width: 1280px;
+      height: 720px; } }
+
+/*# sourceMappingURL=portfolio.css.map */

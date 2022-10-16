@@ -1,0 +1,472 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 8312                
+POS_DAY 11970               
+POS_DOMAIN 3314                
+POS_LOGIN 3546                
+POS_ROBOT 3741                
+POS_WORMS 4301                
+POS_EMAILSENDER 4432                
+POS_EMAILRECEIVER 4575                
+POS_SESSION 12732               
+POS_SIDER 12929               
+POS_FILETYPES 4710                
+POS_OS 4938                
+POS_BROWSER 5069                
+POS_SCREENSIZE 5371                
+POS_UNKNOWNREFERER 5445                
+POS_UNKNOWNREFERERBROWSER 5895                
+POS_ORIGIN 6130                
+POS_SEREFERRALS 6271                
+POS_PAGEREFS 6430                
+POS_SEARCHWORDS 6667                
+POS_KEYWORDS 6819                
+POS_MISC 2199                
+POS_ERRORS 6878                
+POS_CLUSTER 3402                
+POS_SIDER_404 7035                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701082014 1574 300217 52270078618
+FirstTime 0
+LastTime 20170630184034
+LastUpdate 20170702032336 1574 1537 36 0 0
+TotalVisits 137                 
+TotalUnique 83                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 36255 10 15 81298
+1 1 1 4243 18 23 111269
+2 4 4 16972 13 20 80996
+3 3 3 12729 5 8 29680
+4 6 19 3935827 15 19 61301
+5 7 37 30487003 15 18 1120744
+6 3 22 26564089 7 9 41373
+7 8 9 36731 13 22 92339
+8 23 23 109044 20 23 90567
+9 9 61 4031963 11 17 56478
+10 5 5 21215 23 30 126369
+11 4 8 3796750 25 29 121748
+12 8 8 43437 17 19 71644
+13 8 10 35928 11 11 46158
+14 11 85 93591654 21 33 8161175
+15 14 66 15700588 26 29 2999872
+16 6 25 22794402 50 54 256110
+17 13 57 11809911 39 41 214018
+18 91 171 8250402 333 335 1708352
+19 6 40 11740364 29 31 137379
+20 5 18 3931584 38 45 3186347
+21 4 6 31579 18 24 3304510
+22 5 45 65628733 4 8 29756
+23 0 0 0 6 8 26580
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 250 729 302611403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+berkekirannet 1 42 16081 20170624091621
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+spider 294 1549305 20170630184034 0
+yandex 189 7071697 20170629051657 0
+googlebot 59 260515 20170629231818 0
+baiduspider 18 70951 20170622182201 0
+no_user_agent 14 59402 20170630042017 0
+mj12bot 10 50194 20170625132141 0
+ia_archiver 8 42893 20170607162957 0
+robot 8 42921 20170626164015 0
+bot[+:,\.\;\/\\-] 7 23688 20170617150038 0
+python 2 4243 20170626100030 0
+surveybot 2 8486 20170620155840 0
+slurp 1 4220 20170609061614 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 55 280720 0 0
+png 356 296481781 0 0
+pl 3 90029 0 0
+json 30 21600 0 0
+php 1 4243 0 0
+html 146 615872 0 0
+jpg 13 4703241 0 0
+js 54 17064 0 0
+Unknown 70 396706 0 0
+gif 1 147 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 1
+winxp 3
+winnt 417
+linux 56
+winvista 41
+macosx 26
+win2003 4
+Unknown 21
+win2008 160
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+msie6.0 1
+firefox53.0 40
+firefox40.0 1
+chrome 503
+firefox26.0 3
+firefox3.0 1
+firefox52.0 2
+firefox34.0 1
+curl 2
+firefox30.0 1
+firefox7.0.1 1
+firefox47.0 1
+links 2
+firefox33.0 1
+mozilla 12
+msie7.0 4
+firefox3.6.3 1
+msie9.0 145
+Unknown 6
+firefox15.0.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+curl/7.29.0 20170612072533
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170628005841
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170608202504
+Mozilla/5.0_(compatible;_Google-Youtube-Links) 20170610135300
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170625022030
+Mozilla/5.0_(compatible;_ips-agent) 20170609084424
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170628005841
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170625022030
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 103 112
+From1 1 1
+From2 113 171
+From3 3 3
+From4 30 442
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 113 171
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www1.ipage.com/secureLogin 1 1
+http://hundejo.com 1 1
+http://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1 243
+302 3 696
+206 14 12037326
+406 2 526
+407 7 2905
+301 1 235
+404 231 925617
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 43
+/ms-icon-144x144.png 4 -
+/sculpting-modelling 2 -
+/robots.txt 128 -
+/css/fonts.css 4 http://berkekiran.net/personal
+/&quot 1 -
+/wordpress/ 2 -
+/LiveSearchSiteAuth.xml 4 -
+/sfn.php 1 berkekiran.net
+/modules/modules/temp.php 1 berkekiran.net
+/bingsiteauth.xml 4 -
+/customer/account/login 1 -
+/rnnvhs.php 1 berkekiran.net
+/user/login 1 -
+/recent-artwork 2 -
+/wp-admin 1 -
+/blog/ 4 -
+/BingSiteAuth.xml 4 -
+/wp/ 2 -
+/sql/ 1 -
+/temp.php 1 berkekiran.net
+/xmlrpc.php 2 -
+/images/background.png 1 -
+/resume 1 -
+/404 1 -
+/phpmyadmin/ 1 -
+/berkekiran.net/404 2 https://www.google.com/
+/th1s_1s_a_4o4.html 29 http://www.google.com/url
+/blog/robots.txt 2 -
+/images/temp.php 1 berkekiran.net
+/yt.php 1 berkekiran.net
+/pma/ 1 -
+/components/com_content/metadata.xml 1 -
+/drawing-concepts 1 -
+/hom 2 -
+/myadmin/ 1 -
+/personal 8 -
+/administrator/ 1 -
+/wp-includes/js/quicktags.js 1 -
+/a 1 -
+/phpMyAdmin/ 1 -
+/manager 1 http://berkekiran.net/
+/sample.php 1 berkekiran.net
+/wp-json 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+46.197.67.40 40 353 208992776 20170629052425
+184.154.139.50 24 40 117008 20170629184514
+184.154.139.53 18 30 87756 20170630184034
+184.154.139.52 18 30 87756 20170616181758
+184.154.139.49 15 25 73130 20170625181940
+184.154.139.51 12 20 58504 20170623182310
+69.58.178.57 10 10 53885 20170609084424
+78.187.72.162 7 63 75900373 20170609062207
+35.184.50.242 5 5 30708 20170626172540
+35.184.160.151 5 5 30708 20170626122733
+91.210.145.255 4 4 16972 20170625082105
+155.133.82.122 1 1 5547 20170630002220
+202.46.51.39 1 1 4243 20170626172518
+202.46.52.150 1 1 4243 20170627101135
+162.243.166.137 0 1 21672 
+199.249.223.63 1 2 227290 20170605142738
+162.247.72.199 0 2 108048 
+104.196.186.164 1 1 4243 20170625022030
+91.210.146.119 4 4 16972 20170623081056
+54.88.44.248 1 1 4243 20170609043025
+202.46.53.90 1 1 4243 20170604144723
+202.46.56.183 1 1 4243 20170624025200
+35.185.239.191 1 1 4243 20170612083442
+37.187.78.81 1 1 4243 20170628004119
+66.249.93.39 1 12 3926887 20170617192247
+178.137.88.27 1 1 4243 20170614084408
+202.46.51.26 1 1 4243 20170618150321
+202.46.56.195 1 1 4243 20170619030050
+131.253.26.64 1 1 4243 20170611200910
+128.153.146.125 0 1 15668 
+192.161.185.2 1 1 4243 20170608052713
+78.84.126.183 1 1 4243 20170611114953
+178.33.54.161 2 2 8486 20170617010703
+66.249.93.80 4 4 16972 20170612150135
+198.27.85.233 1 1 4243 20170606163822
+66.249.91.38 1 1 4243 20170610135300
+35.184.83.250 1 1 4243 20170622092641
+54.88.37.103 1 1 4243 20170614152448
+146.148.32.211 1 1 4243 20170616093012
+188.226.147.58 1 1 4243 20170626224155
+130.211.201.121 1 1 4243 20170626040924
+37.220.35.202 1 1 4243 20170630032532
+51.254.23.203 0 2 18871 
+34.209.240.165 1 1 4243 20170622124539
+144.217.161.119 0 1 15907 
+176.126.252.12 1 2 9347 20170605142727
+37.1.207.21 1 1 4243 20170618082952
+35.184.242.141 1 1 4243 20170614100025
+202.46.58.126 1 1 4243 20170609150400
+104.155.175.67 1 1 4243 20170622100915
+202.46.54.21 2 2 8486 20170628041625
+35.192.13.154 1 1 4243 20170615135947
+66.249.93.43 0 8 84656 
+35.192.39.211 1 1 4243 20170614120457
+54.198.5.186 1 1 4243 20170603092917
+162.247.72.27 0 1 120342 
+52.213.218.149 1 1 4243 20170605133117
+199.249.223.76 0 2 173391 
+104.154.160.169 1 1 4243 20170622104331
+202.46.49.191 1 1 4243 20170613105011
+35.184.6.249 1 1 4243 20170622083911
+94.23.171.176 1 1 4243 20170625214215
+202.46.49.111 1 1 4243 20170623075237
+185.38.14.171 1 1 4243 20170623183602
+104.154.144.131 1 1 4243 20170622111227
+62.210.129.246 0 2 3786035 
+199.19.104.163 1 1 4243 20170630164514
+35.192.45.148 1 1 4243 20170616063258
+66.249.91.42 1 1 4243 20170610135255
+173.208.213.114 0 1 238631 
+66.249.93.41 1 4 3806219 20170617192247
+202.46.48.96 1 1 4243 20170624023302
+66.249.91.102 1 1 4243 20170608202504
+34.223.218.57 1 1 4243 20170603093432
+66.249.91.159 1 1 4243 20170619195134
+66.249.93.78 2 5 11462 20170614163521
+66.249.93.82 0 3 2976 
+109.163.234.5 0 1 15702 
+206.180.165.146 1 1 4243 20170622175940
+202.46.58.90 1 1 4243 20170620054529
+91.189.112.7 4 4 16972 20170624150511
+91.205.173.48 1 1 4243 20170630053529
+82.217.114.19 1 1 4243 20170610072650
+202.46.55.155 1 1 4243 20170604115829
+202.46.57.77 1 1 4243 20170627195911
+38.100.21.61 3 4 15516 20170620070951
+131.253.38.67 3 3 12729 20170626030305
+118.89.201.123 1 1 4243 20170610174050
+81.214.249.164 1 5 3784021 20170602114508
+202.46.55.142 1 1 4243 20170613130323
+51.15.3.151 2 2 8486 20170612072533
+104.236.141.156 0 2 417536 
+149.202.207.121 1 1 4243 20170616123643
+146.185.176.121 4 4 26465 20170628005841
+202.46.58.196 1 1 4243 20170603212408
+204.85.191.30 0 1 2927 
+163.172.223.200 1 1 4243 20170601081304
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170601 4 6 18869 2
+20170602 4 10 3798647 2
+20170603 6 8 27355 4
+20170604 11 50 49367882 6
+20170605 6 27 5190236 4
+20170606 4 6 18869 2
+20170607 4 6 18869 2
+20170608 6 9 28347 4
+20170609 19 41 26646321 7
+20170610 8 11 36833 6
+20170611 9 49 65638414 5
+20170612 7 10 32590 4
+20170613 6 8 27355 4
+20170614 16 50 7910883 9
+20170615 8 35 57961943 3
+20170616 7 20 3936236 5
+20170617 7 42 11745512 5
+20170618 8 45 11754182 6
+20170619 8 21 3940479 6
+20170620 10 37 7862121 4
+20170621 4 21 3935818 2
+20170622 9 22 3948556 8
+20170623 10 23 3948965 5
+20170624 11 56 151011 5
+20170625 9 11 40084 4
+20170626 17 19 93014 7
+20170627 8 26 3956390 4
+20170628 12 33 26614970 5
+20170629 5 18 3927750 2
+20170630 7 9 32902 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 2
+30s-2mn 2
+0s-30s 129
+15mn-30mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 144 610992 132 88
+/home 34 144262 1 1
+/images/favicon/manifest.json 30 21600 0 29
+/about 14 77658 1 6
+/portfolio 10 112260 0 5
+/sleepingcreature 9 49041 0 4
+/stats/awstats/cgi-bin/awstats.pl 3 90029 0 1
+/stats/ 1 268 1 0
+/john 1 4357 0 1
+/orcleader 1 4908 0 0
+/thegod 1 4220 0 0
+/index.php 1 4243 1 1
+/vgcs/ 1 4612 1 1
+END_SIDER

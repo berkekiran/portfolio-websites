@@ -1,0 +1,317 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201701 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2544                
+POS_VISITOR 3413                
+POS_DAY 4502                
+POS_DOMAIN 4980                
+POS_LOGIN 5210                
+POS_ROBOT 5365                
+POS_WORMS 5718                
+POS_EMAILSENDER 5849                
+POS_EMAILRECEIVER 5992                
+POS_SESSION 6068                
+POS_SIDER 6225                
+POS_FILETYPES 6415                
+POS_OS 6574                
+POS_BROWSER 6693                
+POS_SCREENSIZE 6834                
+POS_UNKNOWNREFERER 6908                
+POS_UNKNOWNREFERERBROWSER 7179                
+POS_ORIGIN 7261                
+POS_SEREFERRALS 7397                
+POS_PAGEREFS 7565                
+POS_SEARCHWORDS 7748                
+POS_KEYWORDS 7900                
+POS_MISC 2208                
+POS_ERRORS 7959                
+POS_CLUSTER 5066                
+POS_SIDER_404 8049                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170201043636 847 153920 33438748090
+FirstTime 20170116181701
+LastTime 20170131181902
+LastUpdate 20170216111924 847 0 846 0 0
+TotalVisits 45                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 7 23 329355
+1 1 1 16604 8 11 140039
+2 0 0 0 5 19 255351
+3 3 3 49812 6 20 168695
+4 0 0 0 7 22 272745
+5 1 18 1021930 10 10 51461
+6 1 1 16604 8 24 218496
+7 1 1 16604 11 36 460415
+8 0 0 0 3 19 176258
+9 0 0 0 2 11 149398
+10 0 0 0 2 5 18928
+11 4 28 2863476 10 24 191727
+12 3 24 2205233 30 33 111634
+13 2 6 79013 1 1 767
+14 2 33 4006130 28 34 57175
+15 1 1 16604 10 22 47804
+16 0 0 0 3 9 22479
+17 9 35 3445607 3 15 52333
+18 15 59 3320664 75 183 2500956
+19 1 3 27224 8 25 402233
+20 0 0 0 16 33 364158
+21 1 1 16604 4 18 290731
+22 0 0 0 9 16 156948
+23 3 9 82749 8 9 19944
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+185.127.10.41 6 6 99624 20170122173503
+184.154.139.51 4 12 108896 20170130181835
+184.154.139.50 3 9 81672 20170128181828
+184.154.139.49 3 9 81672 20170122181617
+85.108.60.10 3 48 5002293 20170121115950
+184.154.139.53 3 9 81672 20170125181633
+184.154.139.52 3 9 81672 20170131181902
+88.237.153.165 2 42 6241683 20170123171216
+158.69.25.178 2 2 33208 20170130031821
+217.70.19.83 2 2 33208 20170126122326
+91.189.112.7 1 1 16604 20170117125443
+95.221.246.89 1 1 16604 20170121035940
+46.242.78.44 1 1 16604 20170121033931
+207.244.77.22 1 18 1021930 20170119054521
+148.62.14.156 2 2 33208 20170117115749
+40.85.183.241 1 1 16604 20170129013538
+66.249.93.41 1 10 976450 20170130143523
+131.253.38.67 1 1 16604 20170124072033
+38.99.82.192 1 7 49541 20170128230736
+91.210.146.232 1 1 16604 20170121155320
+51.15.59.54 2 2 33208 20170126235827
+66.249.93.39 0 12 1318091 
+66.249.93.43 1 11 1711589 20170130143527
+75.149.221.170 1 1 16604 20170127210123
+95.211.216.24 1 1 16604 20170131065159
+38.100.21.69 1 5 62409 20170122131315
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20170116 2 4 43828 2
+20170117 5 7 93640 4
+20170118 4 27 2232457 4
+20170119 3 22 1065758 3
+20170120 2 4 43828 2
+20170121 7 33 2923908 6
+20170122 3 9 106237 3
+20170123 4 46 6285511 3
+20170124 2 4 43828 2
+20170125 1 3 27224 1
+20170126 3 5 60432 3
+20170127 2 4 43828 2
+20170128 2 10 76765 2
+20170129 2 4 43828 2
+20170130 4 37 4049958 4
+20170131 2 4 43828 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 48 223 17184858
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+yandex 192 2386421 20170131204331 30
+spider 112 2603872 20170131181904 0
+googlebot 82 1114819 20170131021720 23
+bot[+:,\.\;\/\\-] 7 167948 20170128220325 1
+unknown 5 69 20170130031821 5
+surveybot 2 16627 20170126152422 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 44
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 45 730576 44 42
+/assets/fonts/fontawesome-webfont.woff2 3 143792 1 3
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 35 438036 0 0
+png 73 9540373 0 0
+html 45 730576 0 0
+jpg 10 5509330 0 0
+js 57 822751 0 0
+woff2 3 143792 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 1
+winunknown 2
+winxp 1
+win2003 5
+winnt 70
+Unknown 44
+linux 42
+win2008 58
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+firefox50.0 43
+msie8.0 7
+chrome 108
+msie7.0 5
+msie28.0 2
+msie9.0 48
+firefox49.0 2
+safari 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/55.0.2883.95_Safari/537.36 20170126235827
+Mozilla/5.0_(Android_7.1.1;_Mobile;_rv:50.0)_Gecko/50.0_Firefox/50.0 20170123180626
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 22 26
+From1 1 1
+From2 18 50
+From3 1 1
+From4 6 145
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 16 48
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://github.com/berkandirim 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 222 170274
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 25
+/ms-icon-144x144.png 57 -
+//phpmyadmin/scripts/setup.php 1 -
+/mailto:contact@berkekiran.com 16 -
+/th1s_1s_a_4o4.html 16 http://www.google.com/url
+/LiveSearchSiteAuth.xml 1 -
+/admin.php 11 -
+/assets/js/href 16 -
+/administrator/index.php 11 http://berkekiran.net/administrator/
+/bingsiteauth.xml 1 -
+/.well-known/assetlinks.json 3 -
+/.well-known/apple-app-site-association 3 -
+/admin 10 -
+/manifest.json 18 -
+/wp-admin/ 10 http://berkekiran.net/wp-login.php
+/BingSiteAuth.xml 1 -
+//MyAdmin/scripts/setup.php 1 -
+/administrator/ 10 -
+/muieblackcat 1 -
+/m/ 2 -
+/a 16 -
+//phpMyAdmin/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+/wp-login.php 11 -
+/apple-app-site-association 3 -
+//pma/scripts/setup.php 1 -
+END_SIDER_404

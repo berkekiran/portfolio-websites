@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://berkekiran.net/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/home</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/portfolio</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/about</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/orcleader</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/thegod</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/john</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/snowyroad</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/silentman</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://berkekiran.net/dragonconcept</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

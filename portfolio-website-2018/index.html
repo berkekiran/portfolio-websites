@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="portfolio">
+
+  <head>
+    <title>Berke Kiran</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Search Engines -->
+    <meta name="description" content="Portfolio of Berke Kiran.">
+    <meta name="keywords" content="Berke, Kiran, Berke Kiran, digital, web design, 3d character, graphic, designer, design, 3d character artist, web design, user experience, front-end developer">
+    <meta name="author" content="Berke Kiran">
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Androclass -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Androclass Tab Color -->
+    <meta name="theme-color" content="#0d1114">
+    <!-- External -->
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/player.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/portfolio.min.css">
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/portfolio.min.js"></script>
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0a1612">
+    <meta name="theme-color" content="#0a1612">
+  </head>
+
+  <body ng-controller="portfolioController">
+
+    <div class="ui">
+      <div ng-click="menuFunc()" id="menuButton">M</div>
+      <div id="menu">
+        <div id="menuWrapper">
+          <span ng-click="introMove()" class="menuButtons">Intro</span><br>
+          <span ng-click="aboutmeMove()" class="menuButtons">About Me</span><br>
+          <span ng-click="recentworksMove()" class="menuButtons">Recent Works</span><br>
+          <span ng-click="charactersMove()" class="menuButtons">Characters</span><br>
+          <span ng-click="websitesMove()" class="menuButtons">Websites</span><br>
+          <span ng-click="otherworksMove()" class="menuButtons">Other Works</span><br>
+          <span ng-click="outroMove()" class="menuButtons">Outro</span>
+        </div>
+      </div>
+    </div>
+
+    <section data-section-name="intro" class="intro sectionClass">
+      <div id="teaser">
+        <video autoplay muted loop>
+          <source src="../images/teaser.mp4" poster="../images/teaser.png" type="video/mp4">
+        </video>
+      </div>
+      <div id="scrollDown" onclick="$.scrollify.next()"></div>
+    </section>
+
+    <section data-section-name="aboutme" class="aboutMe sectionClass">
+      <div id="showreel">
+        <video autoplay muted loop>
+          <source src="../images/showreel.mp4" type="video/mp4">
+        </video>
+      </div>
+      <br>
+      <p id="about">
+        <span>Hello!</span> I’m <span>Berke Kiran</span> a self-taught <span>3D Character Artist</span><br>
+        and <span>Front-End Developer</span>. I am specialized in creating <span>3D<br>
+        characters</span> for <span>cinematics</span>, <span>feature film</span>, and <span>games</span>. I love<br>
+        <span>art</span>, <span>science</span>, <span>coding</span>, <span>learning new technologies</span> & <span>improving<br>
+        myself</span>. I was <span>born</span> and <span>grew</span> in <span>Turkey</span>. So I can speak <span>Turkish</span>,<br>
+        <span>English</span> and little bit <span>German</span>. I started to learning <span>game<br>
+        creation</span> at <span>13</span> years old. Now I am living to <span>learn and create</span><br>
+        something new <span>every day</span>. I graduated high school in <span>2015</span><br>
+        with a class rank of <span>second</span> Out of <span>724</span> graduates. Then I<br>
+        honored with <span>Outstanding Achievement Certificate</span> & now<br>
+        going to <span>KB.University</span> in Karabuk. I'm learning <span>computer<br>
+        engineering</span>.<br><br>
+        If <span>you</span> have a <span>project</span> you'd like to <span>discuss</span>,<br>
+        <span>feel free</span> to <a href="mailto:berkekiranofficial@hotmail.com?Subject=Hi Berke!">reach out.</a><br><br><br>
+        <span id="explore" onclick="$.scrollify.next()">Explore my Art</span>
+      </p>
+    </section>
+
+    <section data-section-name="recentworks" class="recentWorks sectionClass">
+      <h1>Recent Works</h1>
+      <h4>These are my <span>recent works</span>. If you want to <span>see more</span>, just <span>scroll down</span>.</h4>
+      <div class="recentWorksLinksDiv">
+        <a target="_blank" ng-href="{{lastcharacter.Link}}" ng-style="{{lastcharacter.Image}}" class="recentWorksLinks" ng-repeat="lastcharacter in works | filter: lastcharacter.ProjectName = 'Boromir' ">
+          <span class="recentWorksLinksPName">{{lastcharacter.ProjectName}}</span><br>
+          <span class="recentWorksLinksCY">{{lastcharacter.Category}}, {{lastcharacter.Year}}</span>
+        </a>
+        <a target="_blank" ng-href="{{lastwebsite.Link}}" ng-style="{{lastwebsite.ImageRecentWorks}}" class="recentWorksLinks" ng-repeat="lastwebsite in works | filter: lastwebsite.ProjectName = 'Portfolio 2017 v2' ">
+          <span class="recentWorksLinksPName">{{lastwebsite.ProjectName}}</span><br>
+          <span class="recentWorksLinksCY">{{lastwebsite.Category}}, {{lastwebsite.Year}}</span>
+        </a>
+        <a target="_blank" ng-href="{{lastotherwork.Link}}" ng-style="{{lastotherwork.Image}}" class="recentWorksLinks" ng-repeat="lastotherwork in works | filter: lastotherwork.ProjectName = 'B21 Gameplay' ">
+          <span class="recentWorksLinksPName">{{lastotherwork.ProjectName}}</span><br>
+          <span class="recentWorksLinksCY">{{lastotherwork.Category}}, {{lastotherwork.Year}}</span>
+        </a>
+      </div>
+    </section>
+
+    <section data-section-name="characters" class="characters sectionClass">
+      <div class="charactersNavi">
+        <h1>Characters</h1>
+        <span ng-click="characterNaviPrevClick()" class="characterNaviPrev">prev</span>
+        <span ng-click="characterNaviNextClick()" class="characterNaviNext">next</span>
+      </div>
+      <ul class="characterUl">
+        <li class="characterLi" ng-style="{{character.Image}}" ng-repeat="character in works | filter: character.CategoryAlt = 'Characters'">
+          <span class="characterLiName">{{character.ProjectName}}</span><br>
+          <span class="characterLiCY">{{character.Category}}, {{character.Year}}</span><br>
+          <a target="_blank" ng-href="{{character.Link}}" class="characterLiButton">View Character</a>
+        </li>
+      </ul>
+    </section>
+
+    <section data-section-name="websites" class="websites sectionClass">
+      <h1>Websites</h1>
+      <ul class="websiteUl">
+        <li ng-style="{{website.Image}}" class="websiteLi" ng-repeat="website in works | filter: website.CategoryAlt = 'Websites'">
+          <div ng-style="{{website.Logo}}" class="websiteLiLogo"></div>
+          <span class="websiteLiName">{{website.ProjectName}}</span><br>
+          <span class="websiteLiCY">{{website.Category}}, {{website.Year}}</span><br>
+          <a target="_blank" ng-href="{{website.Link}}" class="websiteLiButton">View Website</a>
+        </li>
+      </ul>
+    </section>
+
+    <section data-section-name="otherworks" class="otherWorks sectionClass">
+      <h1>Other Works</h1>
+      <ul class="otherWorkUl">
+        <li class="otherWorkLi" ng-repeat="otherWork in works | filter: otherWork.CategoryAlt = 'Other Works'">
+          <a target="_blank" ng-href="{{otherWork.Link}}" class="otherWorkLiButton">
+            <div ng-style="{{otherWork.Image}}" class="otherWorkLiImage"></div>
+            <span class="otherWorkLiName">{{otherWork.ProjectName}}</span><br>
+            <span class="otherWorkLiCY">{{otherWork.Category}}, {{otherWork.Year}}</span><br>
+            <div class="otherWorkLiGoImage"></div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section data-section-name="outro" class="outro sectionClass">
+      <span class="thankyou">THANK YOU!</span><br>
+      <div class="social">
+        <a target="_blank" href="https://www.linkedin.com/in/berkekiran/"><img src="images/social/linkedin-logo.svg" /></a>
+        <a target="_blank" href="https://github.com/berkekiran"><img src="images/social/github-logo.svg" /></a>
+        <a target="_blank" href="https://www.artstation.com/artist/berkekiran"><img src="images/social/artstation-logo.svg" /></a>
+        <a target="_blank" href="https://www.behance.net/berkekiran"><img src="images/social/behance-logo.svg" /></a>
+        <a target="_blank" href="https://vimeo.com/berkekiran"><img src="images/social/vimeo-logo.svg" /></a>
+        <br>
+        <a target="_blank" href="https://soundcloud.com/berkekiran"><img src="images/social/soundcloud-logo.svg" /></a>
+        <a target="_blank" href="https://www.instagram.com/meberkekiran"><img src="images/social/instagram-logo.svg" /></a>
+        <a target="_blank" href="https://twitter.com/meBerkeKiran"><img src="images/social/twitter-logo.svg" /></a>
+        <a target="_blank" href="https://www.facebook.com/xBerkeKiranx"><img src="images/social/facebook-logo.svg" /></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC-Q2BW9MeH3LJUOvcB36TRg"><img src="images/social/youtube-logo.svg" /></a>
+      </div>
+      <span class="copyright">© Berke Kiran 2018</span>
+    </section>
+
+  </body>
+
+</html>

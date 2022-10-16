@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="portfolio">
+
+  <head>
+    <title>Berke Kiran</title>
+    <meta name="google-site-verification" content="dn3jdXt59AdbKHAQD8MY1luct8EU8jTCYltfrVzBBfk" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Search Engines -->
+    <meta name="description" content="Hello! I’m Berke Kiran a self-taught 3D Character Artist and Front-End Developer. I am specialized in creating 3D characters for cinematics, feature film, and games. I love art, science, coding, learning new technologies & improving myself. I was born and grew in Turkey. So I can speak Turkish, English and little bit German. I started to learning game creation at 13 years old. Now I am living to learn and create something new every day. I graduated high school in 2015 with a class rank of second Out of 724 graduates. Then I honored with Outstanding Achievement Certificate & now going to KB.University in Karabuk. I'm learning computer engineering. If you have a project you'd like to discuss, feel free to reach out.">
+    <meta name="keywords" content="Berke, Kiran, Berke Kiran, digital, web design, 3d character, graphic, designer, design, 3d character artist, web design, user experience, front-end developer">
+    <meta name="author" content="Berke Kiran">
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Androclass -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Androclass Tab Color -->
+    <meta name="theme-color" content="#0d1114">
+    <!-- External -->
+    <link type="text/css" rel="stylesheet" href="css/portfolio.css"/>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-sanitize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#161616">
+    <meta name="theme-color" content="#161616">
+  </head>
+
+  <body ng-controller="bodyController">
+
+    <section class="wrapper">
+
+      <section class="ui">
+        <div class="menu-button" ng-click="menuclick()">
+          <span class="menu-part" ng-style="menuButtonstyle"></span>
+          <span class="menu-part" ng-style="menuButtonstyle"></span>
+          <span class="menu-part" ng-style="menuButtonstyle"></span>
+          <span class="menu-part" ng-style="menuButtonstyle"></span>
+        </div>
+        <span class="section-name">
+          Berke <b>Kiran</b>
+        </span>
+        <div class="menu-ui" ng-style="menustyle">
+          <div class="menu-wrapper">
+            <div class="menu-ui-intro" ng-click="introclick()" ng-style="menulinkstyle">Intro</div>
+            <br>
+            <div class="menu-ui-about" ng-click="aboutclick()" ng-style="menulinkstyle1">About</div>
+            <br>
+            <div class="menu-ui-works" ng-click="worksclick()" ng-style="menulinkstyle2">Works</div>
+            <br>
+            <br>
+            <br>
+            <a href="mailto:berkekiranofficial@hotmail.com?Subject=Hi Berke"><div class="menu-ui-contact" ng-style="menulinkstyle3">Contact</div></a>
+            </div>
+        </div>
+      </section>
+
+      <div class="resume">
+        <hr/>
+        <a target="_blank" href="https://www.linkedin.com/in/berkekiran/">LINKEDIN</a>
+      </div>
+
+      <section class="recent-work">
+        <h1>
+          <span>I'm a self-taught</span>
+          <br>
+          <span>3D Character Artist &</span>
+          <br>
+          <span>Front-End Developer.</span>
+        </h1>
+        <div class="explore-button" ng-click="exploreclick()">Explore my Art</div>
+      </section>
+
+      <section class="profile">
+        <div class="waypoint-about"></div>
+        <div ng-click="aboutoneclick()" class="about-button">About</div>
+        <p class="about-text">
+          <span id="about">Hello!</span> I’m <span>Berke Kiran</span> a self-taught <span>3D Character Artist</span> and <span>Front-End Developer</span>.
+          I am specialized in creating <span>3D characters</span> for <span>cinematics</span>, <span>feature film</span>, and <span>games</span>.
+          I love <span>art</span>, <span>science</span>, <span>coding</span>, <span>learning</span> new technologies & <span>improving myself</span>. I was
+          born and grew in <span>Turkey</span>. So I can speak <span>Turkish</span>, <span>English</span> and little bit <span>German</span>.
+          I started to learning <span>game creation</span> at <span>13</span> years old. Now I am living to <span>learn and create</span>
+          something new <span>every day</span>. I graduated high school in <span>2015</span> with a class rank of <span>second</span>
+          Out <span>of 724</span> graduates. Then I honored with <span>Outstanding Achievement Certificate</span>
+          & now going to <span>KB.University</span> in Karabuk. I'm learning <span>computer engineering</span>.
+          <br>
+          <br>
+          If you have a <span>project</span> you'd like to <span>discuss</span>, feel free to <span>reach out</span>.
+        </p>
+        <div class="showreel-div">
+          <div class="showreel">
+            <iframe id="showreel-iframe" src="https://player.vimeo.com/video/229903690?autoplay=1&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="works">
+        <h1 class="head-works">Works</h1>
+        <div ng-controller="WorkController">
+          <div class="workcontrol">
+            <div ng-click="prev()" class="workcontrol-buttons">Previous</div>
+            <div ng-click="next()" class="workcontrol-buttons">Next</div>
+          </div>
+          <ul class="works-ul">
+            <li class="work" ng-repeat="work in works" ng-style="{{work.style}}">
+              <span class="work-name">{{work.name}}</span>
+              <br>
+              <span class="work-info">{{work.info}}
+                <br>
+                <a class="work-link" target="_blank" ng-href="{{work.link}}">
+                  <span>View Project</span>
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="head-others-div"><h1 class="head-others">Others</h1></div>
+        <div class="others-div">
+          <ul class="others-ul" ng-controller="OtherController as cother">
+            <li class="other" ng-repeat="elem in cother.other | limitTo:cother.limit">
+              <a target="_blank" ng-href="{{elem.link}}">
+                <img ng-style="{'background-color': '{{elem.color}}' }" ng-src="{{elem.image}}">
+                <br>
+                <span> {{elem.name}}
+                  <br>
+                  <span>{{elem.year}}</span>
+                </span>
+              </a>
+            </li>
+            <div class="more-div"><div ng-click="loadMore()" class="more">Load More</div></div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="footer">
+        <hr class="line"/>
+        <span class="letstalk">Sounds Interesting?  <a href="mailto:berkekiranofficial@hotmail.com?Subject=Hi Berke">Let's Talk!</a></span>
+        <ul class="social">
+          <li class="social-li" ng-repeat="socialLink in socialLinks">
+            <a target="_blank" ng-href="{{socialLink.socialHref}}">
+              <img ng-src="{{socialLink.socialSrc}}">
+            </a>
+          </li>
+        </ul>
+        <div class="year">© Berke Kiran 2017</div>
+      </section>
+
+    </section>
+
+  <script type="text/javascript" src="https://player.vimeo.com/api/player.js"></script>
+  <script type="text/javascript" src="js/scrollSpeed.js"></script>
+  <script type="text/javascript" src="js/portfolio.js"></script>
+  </body>
+
+</html>

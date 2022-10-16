@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.berkekiran.com/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/home</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/about</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/contact</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/blood-dragon</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/berkekiran-death</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/dragon-warrior</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/adam-noise-character</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/adam-noise</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/adam-noise2</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.berkekiran.com/adam-noise3</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

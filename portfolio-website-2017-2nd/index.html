@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" ng-app="portfolio">
+
+  <head>
+    <title>Berke Kiran</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Search Engines -->
+    <meta name="description" content="Personal portfolio of Berke Kiran.">
+    <meta name="keywords" content="Berke, Kiran, Berke Kiran, digital, web design, 3d character, graphic, designer, design, 3d character artist, web design, user experience, front-end developer">
+    <meta name="author" content="Berke Kiran">
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Androclass -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Androclass Tab Color -->
+    <meta name="theme-color" content="#0d1114">
+    <!-- External -->
+    <link type="text/css" rel="stylesheet" href="css/portfolio.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" />
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#161616">
+    <meta name="theme-color" content="#161616">
+  </head>
+
+  <body>
+    <section class="wrapper">
+      <a href="http://berkekiran.net/profile.html" id="profile-link">PROFILE</a>
+      <section class="intro">
+        <h1>
+          <span id="intro0">Hi,<br/></span>
+          <span id="intro1">I’m <span class="yellow">Berke Kiran</span>,<br/></span>
+          <span id="intro2">a self-taught <span class="yellow">3D Character </span><br/></span>
+          <span id="intro3"><span class="yellow">Artist</span> & <span class="yellow">Front-End Developer</span>.</span>
+        </h1>
+        <div class="intro-img"></div>
+      </section>
+
+      <section class="characters">
+        <h1>CHARACTERS</h1>
+        <ul class="characters-ul" ng-controller="CharacterController as ocharacter">
+          <li ng-style="characterstyle" ng-repeat="elem in ocharacter.character | limitTo:ocharacter.limit" class="character">
+            <a ng-style="{{elem.Image}}" target="_blank" ng-href="{{elem.Link}}">
+              <span class="project-name">{{elem.ProjectName}}</span>
+              <br/>
+              <span class="category-year">{{elem.Category}},  {{elem.Year}}</span>
+            </a>
+          </li>
+          <div class="load-more" ng-click="loadMore()">. Load More .</div>
+      </ul>
+      </section>
+
+      <div class="other-works-img"></div>
+
+      <section class="other-works">
+        <h1>OTHER WORKS</h1>
+        <ul class="other-works-ul" ng-controller="OtherController as other">
+          <li ng-style="{'background-color': '{{elem.Color}}' }"  ng-repeat="elem in other.otherWork | limitTo:other.limit" class="other-work">
+            <a ng-style="{{elem.Image}}" target="_blank" ng-href="{{elem.Link}}">
+              <span class="project-name">{{elem.ProjectName}}</span>
+              <br/>
+              <span class="category-year">{{elem.Category}},  {{elem.Year}}</span>
+            </a>
+          </li>
+          <div class="load-more-o" ng-click="loadMore()">
+            <span>. Load More .</span>
+          </div>
+        </ul>
+      </section>
+
+      <section class="footer">
+        <hr/>
+        <h2>Sounds Interesting? <a class="lets-talk" href="mailto:berkekiranofficial@hotmail.com?Subject=Hi Berke">Let's Talk!</a></h2>
+        <ul class="social-links" ng-controller="SocialController">
+          <li ng-repeat="social in socials" class="social-link">
+            <a ng-href="{{social.Link}}"><img height="26px" width="26px" ng-src="{{social.Image}}" /></a>
+          </li>
+        </ul>
+        <h3>© Berke Kiran 2017</h3>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="js/other-works.js"></script>
+    <script type="text/javascript" src="js/characters.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
+  </body>
+
+</html>
