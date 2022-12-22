@@ -1,0 +1,406 @@
+.homeContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+}
+
+.homeHeader div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.homeHeaderImage {
+    width: 640px;
+    height: auto;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.gridRow {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridBox {
+    position: relative;
+    width: 84px;
+    height: 84px;
+    padding: 36px;
+}
+
+.techIcon:hover img {
+    opacity: 0.425;
+    transform: scale(1.125);
+}
+
+.plusIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0.425;
+}
+
+.plusIconTopLeft {
+    top: -12px;
+    left: -12px;
+}
+
+.plusIconTopRight {
+    top: -12px;
+    right: -12px;
+}
+
+.plusIconBottomLeft {
+    bottom: -12px;
+    left: -12px;
+}
+
+.plusIconBottomRight {
+    bottom: -12px;
+    right: -12px;
+}
+
+.company {
+    color: #1e1d1d6c;
+    font-weight: 600;   
+    font-size: 32px;
+    margin-top: 24px;
+    margin-left: 90px;
+    width: max-content;
+}
+
+.selectedProjectLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    width: 694px;
+}
+
+.selectedProjectLinks a {
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #f9f9f9;
+    font-size: 16px;
+    background-color: #1e1d1d;
+    border-radius: 4px;
+}
+
+.selectedProjectLinks a:hover {
+    color: #1e1d1d;
+    background-color: transparent;
+    transform: scale(1.025) !important;
+}
+
+.selectedProjectLinks a:hover svg {
+    color: #1e1d1d;
+}
+
+.selectedProjectLinks .redBackground:hover {
+    color: #e84142;
+    background-color: transparent !important;
+}
+
+.selectedProjectLinks .redBackground:hover svg {
+    color: #e84142;
+}
+
+.redBackground {
+    background-color: #e84142 !important;
+}
+
+.selectedProjectLinks a span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-right: 36px;
+    height: 24px;
+}
+
+.selectedProjectLinks a svg {
+    position: absolute;
+    right: 0;
+    margin-right: 18px;
+    width: 24px;
+    height: 24px;
+    color: #f9f9f9;
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+    .homeContainer {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .homeContainer {
+        width: 72.5%;
+    }
+
+    .homeHeaderImage {
+        width: 480px;
+    }
+    
+    .homeHeader h1 {
+        font-size: 48px;
+    }
+
+    .gridBox {
+        height: 64px;
+        padding: 28px;
+    }
+
+    .company {
+        font-size: 24px !important;
+        margin-top: 24px;
+        margin-left: 72px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1080px) {
+    .homeContainer {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+        width: auto;
+        margin-top: 120px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .homeHeader {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .homeHeader div {
+        align-items: center;
+    }
+
+    .homeHeaderImage {
+        margin-top: 72px;
+        width: 360px;
+    }
+
+    .homeHeader h1 {
+        font-size: 48px;
+    }
+
+    .grid {
+        margin-top: 64px;
+    }
+
+    .gridBox {
+        width: 64px;
+        height: 64px;
+        padding: 28px;
+    }
+
+    .company {
+        font-size: 24px !important;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+    .selectedProjectLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 64px;
+        width: auto;
+    }
+
+    .selectedProjectLinks a {
+        margin-bottom: 32px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 720px) {
+    .homeContainer {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+        width: auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .homeHeader {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .homeHeader div {
+        align-items: center;
+    }
+
+    .homeHeaderImage {
+        margin-top: 72px;
+        width: 360px;
+    }
+
+    .homeHeader h1 {
+        font-size: 32px;
+    }
+
+    .grid {
+        margin-top: 64px;
+    }
+
+    .gridBox {
+        width: 48px;
+        height: 48px;
+        padding: 24px;
+    }
+
+    .company {
+        font-size: 18px !important;
+        margin-top: 18px;
+        margin-left: 0;
+    }
+
+    .selectedProjectLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 64px;
+        width: auto;
+    }
+
+    .selectedProjectLinks a {
+        margin-bottom: 32px;
+        max-width: 240px;
+    }
+
+    .selectedProjectLinks a:last-of-type {
+        height: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeContainer {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+        width: auto;
+        margin-top: 48px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .homeHeader {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .homeHeader div {
+        align-items: center;
+    }
+
+    .homeHeaderImage {
+        margin-top: 72px;
+        width: 360px;
+    }
+
+    .homeHeader h1 {
+        font-size: 24px;
+    }
+
+    .grid {
+        margin-top: 64px;
+    }
+
+    .gridBox {
+        width: 32px;
+        height: 32px;
+        padding: 18px;
+    }
+
+    .company {
+        font-size: 18px !important;
+        margin-top: 18px;
+        margin-left: 0;
+    }
+
+    .selectedProjectLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 64px;
+        width: auto;
+    }
+
+    .selectedProjectLinks a {
+        margin-bottom: 32px;
+    }
+
+    .selectedProjectLinks a:last-of-type {
+        margin-bottom: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+        max-width: 240px;
+    }
+
+    .selectedProjectLinks a:last-of-type {
+        height: 42px;
+    }
+}
