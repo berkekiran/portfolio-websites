@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-200: 0 0 0;
+    --dark-100: 0 24 24;
+    --dark: 0 40 40;
+    --base: 76 140 140;
+    --light: 158 213 213;
+    --light-100: 188 228 228;
+    --light-200: 255 255 255;
+}
+
+::selection {
+    background: rgb(var(--light-100));
+    color: rgb(var(--dark-100));
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+body {
+    background-color: rgb(var(--dark-200));
+} 
+
+svg {
+    display: inline;
+}

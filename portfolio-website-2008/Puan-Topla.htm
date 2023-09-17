@@ -1,0 +1,523 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+	        <script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        function getElementsByClassNameLocalTimeWrapper() {
+            return document.getElementsByClassName("localtime");
+        }
+        
+        (function () {
+            var onload = function () {
+                var elementArray = new Array();
+                
+                if (document.getElementsByClassName) {
+                    elementArray = getElementsByClassNameLocalTimeWrapper();
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elementArray.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elementArray.length; i++) {    
+                    var timeLocal = new Date(parseInt(elementArray[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elementArray[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elementArray[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script>
+<script type="text/javascript">
+<!--
+function IE(e) {
+     if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+          alert('&#220;zg&#252;n&#252;z sa&#287; t&#305;klamak yasak.');
+          return false;
+     }
+}
+function NS(e) {
+     if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == "2" || e.which == "3") {
+               alert('&#220;zg&#252;n&#252;z sa&#287; t&#305;klamak yasak.');
+               return false;
+          }
+     }
+}
+document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+//-->
+</script>
+<link rel="icon" href="img/main/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="img/main/favicon.ico">
+<link type="image/x-icon" href="img/main/favicon.ico">
+<link href="img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<meta property="og:title" content="bkyapim - Puan Topla">
+<meta property="og:image" content="https://theme.webme.com/designs/iceblue/screen.jpg">
+	<title>bkyapim - Puan Topla</title>
+	<style type="text/css">
+	<!--
+		body {
+			background-color: #2e3839;
+			margin: 5px;
+			font-family:	tahoma, verdana, arial;
+		} 
+		td {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: black;
+		}
+		a {
+			font-size: 11px;
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		a.std {
+			color:#436123;
+			text-decoration: none;
+		}
+		a:visited.std { color:#436123; text-decoration: none; }
+		a:hover.std { color:#436123; text-decoration: underline; }
+		.small	{
+			font-family:	tahoma, verdana, arial;
+			font-size: 9px;
+			color: #000000;
+		}
+		.small a {
+			color: black;
+		}
+		.headline,.headline2,.headline3 {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: white;
+		}
+		.cont {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: #000000;
+		}
+		.ro {
+			background-color:#E7E7E7;
+		}
+		html {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+		}
+		.bbc { color:#FFFFFF; background-color:#FFFFFF; border-color:#FFFFFF; border-style:solid; border-width:1px; text-decoration:none;}
+		td.nav {
+			background-image: url(designs/iceblue/images/button.gif);
+			background-repeat: none;
+			height: 33px;
+			width: 185px;
+			padding-left: 25px;
+		}
+		td.nav a {
+			color: black;
+			font-size:11px;
+		}
+		td.nav_heading {
+			background-image: url(designs/iceblue/images/heading_left.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 23px;
+			width: 185px;
+			height: 23px;
+		}
+		td.nav_head {
+			background-image: url(designs/iceblue/images/head_left.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 31px;
+			width: 185px;
+			height: 31px;
+		}
+		td.sidebar_heading {
+			background-image: url(designs/iceblue/images/heading_right.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 24px;
+			width: 168px;
+			height: 24px;
+		}
+		td.sidebar_head {
+			background-image: url(designs/iceblue/images/head_right.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 32px;
+			width: 168px;
+			height: 32px;
+		}
+		.shouty,.shouty2,.shouty3,.shouty4,.shouty5,.shouty_facebook_like_button {
+			background-color: #fafbfc;
+			background-image: url(designs/iceblue/images/shouty.gif);
+			background-repeat: no-repeat;
+			padding: 5px;
+		}
+        
+		.shoutbox {
+			overflow: auto;
+			height: 300px;
+			width: 175px;
+		}
+		.nick {
+			font-weight: bold;
+		}
+		.shoutbox hr {
+			border: 0;
+			border-bottom: 1px dashed #0c2737;
+		}
+		.shoutbox input, .shoutbox textarea {
+			width: 155px;
+		}
+		.send {
+			margin-top: 5px;
+			color: black;
+			font-weight: bold;
+			width: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.RowLight, .RowDark {
+			padding-left: 10px;
+			height: 27px;
+		}
+		.RowLight {
+			background-image: url(designs/iceblue/images/stats_bg1.gif);
+		}
+		.RowDark {
+			background-image: url(designs/iceblue/images/stats_bg2.gif);
+		}
+		img { border: 0;}
+		.headline a, .footer_text, .footer_text a.nav {
+			color: white;
+		}
+			//-->
+	</style>
+</head>
+<body>
+<font color="white"><style type="text/css"><!-- body{background-image:url(pic/i/iniyortasarim/arka_nokta.gif);background-repeat: repeat;} td.edit_rechts_sbg{background-image: none;} td.headline{visibility: hidden;} td.shouty{background-image:url(pic/i/iniyortasarim/sagalt.gif);background-repeat: repeat;} td.shouty2{background-image:url(pic/i/iniyortasarim/sagalt.gif);background-repeat: repeat;} td.shouty3{background-image:url(pic/i/iniyortasarim/sagalt.gif);background-repeat: repeat;} td.shouty4{background-image:url(pic/i/iniyortasarim/sagalt.gif);background-repeat: repeat;} td.shouty5{background-image:url(pic/i/iniyortasarim/sagalt.gif);background-repeat: repeat;} td.edit_rb_footer{background-image:url(pic/i/iniyortasarim/navmacdown.gif);background-repeat: no-repeat;} td.edit_rechts_bottom{background-image: none;} td.edit_content_bottom2{background-image:url(http://www.hizliupload.com/img/177343barpa1s.JPG); height: 33px;} td.edit_rechts_cbg{background-image: none;} td.edit_below_nav img{visibility: hidden;} td.edit_below_nav{background-image: none;} td.edit_navi_headbg{background-image: none;} td.nav{background-image:url(pic/i/iniyortasarim/bt1.gif);} td.nav a{color: blue;} td.nav:hover{background-image:url(pic/i/iniyortasarim/bt2.gif);} td.nav_heading{height: 33px;background-image:url('pic/i/iniyortasarim/bt1gr9.gif');color: blue} td.sidebar_heading{height: 33px;color: blue; background-image:url('pic/i/iniyortasarim/sag.gif');} td.edit_content_top{background-image:url(pic/i/iniyortasarim/bar.gif);height: 33px;} td.edit_content{background-image:url(pic/i/iniyortasarim/arkaplan.gif);background-repeat: repeat;} td.edit_content_bottom{background-image:url(pic/i/iniyortasarim/bt2mh1.gif);height: 0px;} table.edit_main_table{width: 80% !important;} td.edit_main_tr{width: 80% !important;} table.edit_second_table{width: 80% !important;} td.edit_header_full{width: 80% !important;background-position:center;background-repeat:no-repeat; } td.edit_header_full table{width: 80% !important;} table.edit_third_table{width: 80% !important;} td.edit_navi_headbg{width: 15% !important;} table.edit_rechts_tabelle{width: 80% !important;} td.edit_rechts_bottom{width: 15% !important;} td.edit_rechts_cbg{width:80%;} tr.checked_menu td{background-image:url(pic/i/iniyortasarim/btsec.gif);} tr.checked_menu td:hover{background-image:url(pic/i/iniyortasarim/bt2.gif);} --></style> <style type="text/css"> <!-- td.edit_header_full{background-image: url( http://www.hizliupload.com/img/472885bk-yapim.jpg); --> </style> <style type="text/css"> <!-- html, body { text-align: center; } --> </style><br></font> <br>
+<table class="edit_main_table" width="1000" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="921" height="1000" align="left" valign="top" class="edit_main_tr">
+			<table width="921" border="0" cellspacing="0" cellpadding="0" class="edit_second_table">
+				<tr>
+					<td height="104" align="left" valign="top" class="edit_header_full" background="//img.webme.com/pic/b/bkyapim/i.jpg">
+						<table width="921" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="200" class="edit_header_sub_left">&nbsp;</td>
+								<td width="712" class="edit_header_sub_right" height="26">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="edit_header_over_headline">&nbsp;</td>
+								<td class="headline" style="font-size: 20px; font-weight: bold; text-align: right; padding-right: 10px;">bkyapim</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="edit_td_third_table">
+						<table width="921" border="0" cellspacing="0" cellpadding="0" class="edit_third_table">
+							<tr>
+								<td width="185" height="1000" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/navi_bg.gif" class="edit_navi_headbg">
+									<table width="185" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="nav_heading">KATAGOR&#304;LER</td>
+										</tr>
+<tr>
+                                            <td class="nav" id="nav_AnaSayfa">
+                                                <a href="index.htm" class="menu">Ana Sayfa</a>
+                                            </td>
+                                        </tr>
+<tr>
+                                            <td class="nav" id="nav_letiim">
+                                                <a href="%26%23304%3Bleti%26%23351%3Bim.htm" class="menu">&#304;leti&#351;im</a>
+                                            </td>
+                                        </tr>
+<tr>
+                                            <td class="nav" id="nav_MeyveToplama">
+                                                <a href="Meyve-Toplama.htm" class="menu">Meyve Toplama</a>
+                                            </td>
+                                        </tr>
+<tr>
+                                            <td class="nav" id="nav_HazineyiA">
+                                                <a href="Hazineyi-A%EF%BF%BD.htm" class="menu">Hazineyi A&#231;</a>
+                                            </td>
+                                        </tr>
+<tr>
+                                            <td class="nav" id="nav_AjanBK2D">
+                                                <a href="Ajan-BK-2D.htm" class="menu">Ajan BK 2D</a>
+                                            </td>
+                                        </tr>
+<tr class="checked_menu">
+                                            <td class="nav" id="nav_PuanTopla">
+                                                <a href="Puan-Topla.htm" class="menu">Puan Topla</a>
+                                            </td>
+                                        </tr>
+										<tr>
+											<td class="edit_below_nav">
+												<img src="designs/iceblue/images/navi_ende.gif" width="185" height="198" alt="">
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width="568" height="1000" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/cont_bg.gif" class="edit_rechts_cbg">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td>
+												<table class="edit_rechts_tabelle" width="568" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td background="//theme.webme.com/designs/iceblue/images/cont_top.gif" height="38" class="edit_content_top">
+															<table width="568" border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="edit_content_left" width="20"></td>
+																	<td class="edit_content_right" width="548" height="5"></td>
+																</tr>
+																<tr>
+																	<td class="edit_content_pre_headline2">&nbsp;</td>
+																	<td class="headline2">Puan Topla</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td height="100" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/cont2_bg.gif" class="edit_content">
+															<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="edit_content_container">
+																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																			<tr>
+																				<td class="edit_content_left_spacer" width="3%">&nbsp;</td>
+																				<td class="edit_content_main" width="94%">
+																					<div style="width: 510; overflow: auto;"><span style="font-size: small;"><span style="font-size: large;"><img src="pic/b/bkyapim/ss.jpg" alt=""></span><br>
+Asl&#305;nda oyun &ccedil;ok basit top duvara ve  &ccedil;ubu&#287;una de&#287;ince z&#305;pl&#305;yor.Ve kutulara de&#287;ince puan&#305;n&#305;z art&#305;yor ve  di&#287;er b&ouml;l&uuml;me ge&ccedil;iyorsunuz.<br>
+<br>
+</span><a href="http://rapidshare.com/files/403541006/Puan_Topla.exe.html"><img src="pic/b/bkyapim/indir.jpg" alt=""></a></div>
+																				</td>
+																				<td class="edit_content_right_spacer" width="3%">&nbsp;</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td height="31" background="//theme.webme.com/designs/iceblue/images/cont_bottom.gif" class="edit_content_bottom"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/footer.gif" height="31" class="edit_content_bottom2">
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="edit_content_bottom2_left_spacer" width="2%">&nbsp;</td>
+														<td class="edit_content_bottom2_counter" width="96%" style="color:white; text-align: center;">
+															Bug&#252;n 1 ziyaret&#231;i (55 klik) ki&#351;i burdayd&#305;!														</td>
+														<td class="edit_content_botom2_right_spacer" width="2%">&nbsp;</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>                              
+								<td width="168" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/rechts_bg2.gif" class="edit_rechts_bottom">
+
+                                 
+									<table id="sidebar_heading_1" width="168" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="sidebar_heading">SAAT</td>
+										</tr>
+										<tr>
+											<td class="shouty">
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="150" height="150" id="clock" align="middle">
+	<param name="allowScriptAccess" value="sameDomain">
+	<param name="movie" value="designs/clock.swf?color=0xF1E8E8">
+	<param name="quality" value="high">
+	<param name="bgcolor" value="#ffffff">
+	<embed src="designs/clock.swf?color=0xF1E8E8" quality="high" bgcolor="#ffffff" width="150" height="150" name="clock" align="middle" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" pluginspage="//www.macromedia.com/go/getflashplayer">
+</object>											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/poll_bottom_bg.gif" height="27" class="edit_rb_footer" id="edit_rb_footer_1">&nbsp;</td>
+										</tr>
+									</table>
+
+                                     
+                                    
+									<table width="168" border="0" cellspacing="0" cellpadding="0" id="sidebar_heading_2">
+										<tr>
+											<td class="sidebar_heading">Yap&#305;mc&#305;</td>
+										</tr>
+										<tr>
+											<td class="shouty2">
+												Berke:<br>
+--Oyun Yap&#305;mc&#305;s&#305;<br>
+--Program Yap&#305;mc&#305;s&#305;<br>
+--Blog Yap&#305;mc&#305;s&#305;<br>
+--Forum Yap&#305;mc&#305;s&#305;											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/poll_bottom_bg.gif" height="27" class="edit_rb_footer" id="edit_rb_footer_2">&nbsp;</td>
+										</tr>
+									</table>
+									<table width="168" border="0" cellspacing="0" cellpadding="0" id="sidebar_heading_3">
+										<tr>
+											<td class="sidebar_heading"></td>
+										</tr>
+										<tr>
+											<td class="shouty3">
+												http://www.logomaker.com/logo-images/cf7f3dfa847d5481.gif											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/poll_bottom_bg.gif" height="27" class="edit_rb_footer" id="edit_rb_footer_3">&nbsp;</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="79" background="//theme.webme.com/designs/iceblue/images/s_bg.gif" class="edit_rechts_sbg">&nbsp;</td>
+	</tr>
+</table>
+<font color="white"></font>
+<a id="selfpromotionOverlay" href="https://www.bedava-sitem.com/?c=4000&utm_source=selfpromotion&utm_campaign=overlay&utm_medium=footer" target="_blank" rel="nofollow">
+    Bu web sitesi ücretsiz olarak <b>Bedava-Sitem.com</b> ile olu&#351;turulmu&#351;tur. Siz de kendi web sitenizi kurmak ister misiniz?
+
+    <div class="btn btn-1">Ücretsiz kaydol</div>
+
+</a>
+<style>
+    body {
+        padding-top: 124px;
+    }
+    #forFixedElement {
+        top: 124px;
+    }
+    @media (min-width: 365px) {
+        body {
+            padding-top: 103px;
+        }
+        #forFixedElement {
+            top: 103px;
+        }
+    }
+    @media (min-width: 513px) {
+        body {
+            padding-top: 82px;
+        }
+        #forFixedElement {
+            top: 82px;
+        }
+    }
+    @media (min-width: 936px) {
+        body {
+            padding-top: 61px;
+        }
+        #forFixedElement {
+            top: 61px;
+        }
+    }
+
+    /* General button style */
+    #selfpromotionOverlay .btn {
+        border: none;
+        font-size: inherit;
+        color: inherit;
+        background: none;
+        cursor: pointer;
+        padding: 6px 15px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin: 0px;
+    }
+
+    /* Button 1 */
+    #selfpromotionOverlay .btn-1, #selfpromotionOverlay .btn-1:visited {
+        background: rgb(0, 85, 204);
+        color: #fff;
+    }
+
+    #selfpromotionOverlay .btn-1:hover {
+        background: #2980b9;
+    }
+
+    #selfpromotionOverlay .btn-1:active {
+        background: #2980b9;
+        top: 2px;
+    }
+
+    #selfpromotionOverlay {
+        font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
+        text-align: center;
+        opacity: 1;
+        transition: opacity 1s ease;
+        position: fixed;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 1.5em;
+        flex-wrap: nowrap;
+        z-index: 5000;
+        padding: 14px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        color: rgb(35,35,35);
+        background-color: rgb(246,246,246);
+        border-bottom: 1px solid #5a5a5a;
+    }
+
+    #selfpromotionOverlay:hover {
+        background: white;
+        text-decoration: none;
+    }
+</style></body>
+</html>

@@ -1,0 +1,32 @@
+<section ng-controller="portfolio-work">
+  <section class="characters classic">
+    <ul class="classic">
+      <li ng-repeat="character in characters">
+        <a ng-href="{{character.link}}">
+          <img ng-src="{{character.image}}">
+          <br>
+          <span>{{character.name}}
+            <br>
+            <span>{{character.year}}</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="featured classic">
+    <h1 class="head-of-section">/  Other projects</h1>
+    <br>
+    <ul class="classic">
+      <li ng-repeat="project in projects">
+        <a ng-href="{{project.link}}">
+          <img ng-style="{'background-color': '{{project.color}}' }" ng-src="{{project.image}}">
+          <br>
+          <span> {{project.name}}
+            <br>
+            <span>{{project.year}}</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</section>

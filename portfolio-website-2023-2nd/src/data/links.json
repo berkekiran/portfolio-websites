@@ -1,0 +1,26 @@
+[
+    {
+        "img": "images/global/linkedin.svg",
+        "head": "Linkedin",
+        "desc": "Explore my professional experiences",
+        "link": "https://www.linkedin.com/in/berkekiran/"
+    },
+    {
+        "img": "images/global/github.svg",
+        "head": "Github",
+        "desc": "Discover my coding projects",
+        "link": "https://github.com/berkekiran"
+    },
+    {
+        "img": "images/global/twitter.svg",
+        "head": "Twitter",
+        "desc": "Stay connected with my latest updates",
+        "link": "https://twitter.com/berkekiraneth"
+    },
+    {
+        "img": "images/global/artstation.svg",
+        "head": "Artstation",
+        "desc": "Experience my artistic journey",
+        "link": "https://www.artstation.com/berke"
+    }
+]

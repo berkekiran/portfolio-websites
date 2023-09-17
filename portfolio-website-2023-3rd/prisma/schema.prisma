@@ -1,0 +1,72 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url = env("DATABASE_URL")
+}
+
+model Setting {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  name String
+  image String
+  role String
+  roleIcon String
+  currentlyImage String
+  currentlyLink String
+  linkedin String
+  github String
+  xcom String
+  email String
+  createdAt DateTime @default(now())
+}
+
+model Project {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  desc String
+  image String
+  link String
+  linkLabel String
+  createdAt DateTime @default(now())
+}
+
+model Service {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  desc String
+  image String
+  createdAt DateTime @default(now())
+}
+
+model Client {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  image String
+  createdAt DateTime @default(now())
+}
+
+model Memory {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  location String
+  image String
+  createdAt DateTime @default(now())
+}
+
+model Testimonial {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  role String
+  testimonial String
+  image String
+  createdAt DateTime @default(now())
+}
+
+model Question {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  question String
+  answer String
+  createdAt DateTime @default(now())
+}

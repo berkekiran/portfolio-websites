@@ -1,0 +1,118 @@
+﻿<html>
+<head>
+ <script type="text/javascript" src="source/js/jquery-1.11.3.min.js"></script>
+ <script type="text/javascript" src="source/js/javascripts.js"></script>
+ <meta name="description" content="Digital Artist and Programmer">
+ <meta name="keywords" content="3D artworks,2D artworks,3D,2D,Video artworks,Sounds,Horror,Horrible sounds,Scary sounds,Scary videos,Horrible videos,Game Main Menu sounds,Backgrounds">
+ <meta name="author" content="Berke KIRAN">
+ <link rel="stylesheet" type="text/css" href="source/css/style.css">
+ <meta charset="utf-8">
+ <title>Berke KIRAN - Digital Artist and Programmer</title>
+ <link rel="icon" type="image/png" href="source/images/small_logo.png" />
+ <link rel="icon" type="image/x-icon" href="source/images/favicon.ico" />
+</head>
+<body>
+<div id="intro" ><div class="intro_back"><span id="intro_text" onclick="intro()">ENTER</span></div><div id="copyright1">&nbsp;© Copyrighted by <a href="index.html">Berke KIRAN</a><span style="opacity:0.5;"> . </span>2015 All Rights Reserved .    </div></div>
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="source/images/background.png" class="fullscreen-bg__video">
+        <source src="source/images/background.mp4" type="video/mp4">
+		<source src="source/images/background.webm" type="video/webm">
+        <source src="source/images/background.ogv" type="video/ogg">
+    </video>
+	<embed src="source/images/background.mp3" loop="true" autostart="true" hidden="true" />
+</div>
+    <div class="slider">
+	<button type="button" id="slider_p"></button>
+	<button type="button" id="slider_n"></button>
+	</div>
+	<div class="support">
+	   <table class="socialmedia">
+	   <tr><td><a href="#"><div id="facebook"></div></a></td>
+	   <td><a href="#"><div id="steam"></div></a></td>
+	   <td><a href="#"><div id="instagram"></div></a></td>
+	   <td><a href="#"><div id="google"></div></a></td>
+	   <td><a href="#"><div id="flickr"></div></a></td>
+	   <td><a href="#"><div id="soundcloud"></div></a></td>
+	   <td><a href="#"><div id="youtube"></div></a></td>
+	   <td><a href="#"><div id="paypal"></div></a></td></tr>
+	   </table>
+	</div>
+    <a href="index.html"><div id="small_logo"></div></a>
+    <div class="menu">
+	 <button type="button" onclick="home_button_clicked()" id="home_button"></button>
+     <div id="menu_cutter"></div>
+     <button type="button" onclick="aboutmeandclosebutton_clicked()" id="aboutme_button"></button>
+     <button type="button" onclick="contactmandclosebutton_clicked()" id="contact_button"></button>
+     <button type="button" onclick="down_button_clicked()" id="down_button"></button>
+     <button type="button" onclick="down_button_toup_clicked()" id="down_button_toup"></button>
+	</div>
+	<div class="commentandlikeanupbutton">
+	 <div class="upbuttons">
+	 <button type="button" onclick="commentandlike_upbutton_clicked()" id="commentandlike_upbutton"></button>
+     <button type="button" id="commentandlike_upbutton_fordown" onclick="commentandlike_upbutton_fordown_doubleclicked()"></button>
+     </div>	 
+	<div class="commentandlike">
+      <span id="commentandlike_liketext">Do you like this artwork ?</span>
+      <div class="commentandlike_ratingbar">
+      <span id="commentandlike_badtext">BAD</span>
+      <button type="button" id="commentandlike_ratebox1" onclick="one_button_clicked()">1</button>
+      <button type="button" id="commentandlike_ratebox2" onclick="two_button_clicked()">2</button>
+      <button type="button" id="commentandlike_ratebox3" onclick="three_button_clicked()">3</button>
+      <button type="button" id="commentandlike_ratebox4" onclick="four_button_clicked()">4</button>
+      <button type="button" id="commentandlike_ratebox5" onclick="five_button_clicked()">5</button>
+      <span id="commentandlike_goodtext">GOOD</span>
+      </div>
+      <span id="commentandlike_nametext">What's your name ?</span>
+      <INPUT type="text" maxlength="500" id="commentandlike_textbox1" placeholder="E.G.:Berke KIRAN"/>
+      <span id="commentandlike_commenttext">What do you think about of this artwork?<br>Please comment here .</span>
+      <textarea rows="2" cols="35" maxlength="255" id="commentandlike_textbox2" placeholder="E.G.:Hey DuDe this artwork is awesome !! But you should fix something ."></textarea>
+      <button type="button" id="commentandlike_send_button">SEND</button>
+     </div>
+	</div>
+	<a id="forhoverchrome" href="https://www.google.com/chrome/"><img src="source/images/chrome.png" height="175px" width="175px"></img></a>
+	<div class="add"><div class="addhere"></div></div>
+	 <div class="aboutmeandclosebutton">
+      <span id="aboutmetext">ABOUT ME</span>
+      <button id="aboutme_close_button" onclick="aboutme_close_button_clicked()"></button>
+      <div class="aboutme">
+	  <div id="mypicture1"><div id="picturebox1"></div></div>
+	  <div id="mypicture2"><div id="picturebox2"></div></div>
+	  <div id="mypicture3"><div id="picturebox3"></div></div>
+	  <div id="mypicture4"><div id="picturebox4"></div></div>
+	  <p id="aboutmeinformationtext">
+	  <font color="grey" face="Roboto-LightItalic">Hi,</font><br> Welcome to my personal website.<br>My name is Berke KIRAN.I am 18.I can speak Turkish,English and little bit German.And I am going to Karabuk University.I'm learning computer engineering.I started game programming at 13 years old.I learned "How to make 2d game,3d game and software ? ".Now , I am  a digital artist and programmer.I love create something.So I created this website with php,javascript and html+css because I want to show my artworks.3d modelling is very funny for me.I love it.I know these programs and computer languages :	  </p>
+	   <p id="aboutmeinformationtext1">C#,C,Html,Html5,Css,Javascript,Php,Photoshop,Blender 3D,Scrulptris,After Effects,Unreal Engine 3 and 4,Unity 3D 3 and 4,Zbrush 4R6,Visual Studio,Unfold3d,Mixcraft,Dreamweaver,3DsMax,GameMaker8,Linux,Linux Commands,Backtrack5,Flash8,Filezilla,CrazyBump and more....</p>
+	  <p id="threedot"> - -- --- -------o------- --- -- - </p>	  	  <span id="aboutmw__information">contact@berkekiran.com</span>
+
+     </div>
+     </div>
+     <div class="contactmandclosebutton">
+      <span id="contactmtext">CONTACT</span>
+      <button id="contactm_close_button" onclick="contactm_close_button_clicked()"></button>
+      <div class="contactm">
+	  <span id="contactm__nametext">What is your name ?</span>
+	  <INPUT type="text" maxlength="500" id="contactm_textbox1" placeholder="E.G.:Berke KIRAN"/>
+      <span id="contactm__emailtext">What is your e-mail address ?</span>
+	  <INPUT type="text" maxlength="500" id="contactm_textbox2" placeholder="E.G.:contact@berkekiran.com"/>
+	  <span id="contactm__text">What is your message ?</span>
+      <textarea rows="2" cols="35" maxlength="500" id="contactm_textbox3" placeholder="E.G.:Hi , You should work with me.We can create beautiful game.My skype username is berkekiranofficial."></textarea>
+      <button type="button" id="contactm_send_button">SEND</button>
+	  <div id="contactm_direct"></div>
+	  <span id="contactm__information">contact@berkekiran.com</span>
+	 </div>
+	</div>
+	<div class="descriptionm">
+	<button id="descriptionm_closebutton" onclick="descriptionm_close()"></button>
+    <button id="descriptionm_closebutton1" onclick="descriptionm_open()"></button>
+	<span id="captions">My Caption</span>
+	<span id="textrating">Rating :</span>
+	<span id="ratingscore">4.5</span>
+	<span id="descriptiontextm">
+	Now , I am  a digital artist and programmer.I love create something.So I created this website with php,javascript and html+css because I want to show my artworks.3d modelling is very funny for me.I love it.
+	</span>
+	<span id="descriptioninform">This Artwork's Tags : #3D , #2D</span>
+	<span id="descriptioninform2">3000 views</span>
+	</div>
+	<div id="copyright">&nbsp;© Copyrighted by <a href="index.html">Berke KIRAN</a><span style="opacity:0.5;"> . </span>2015 All Rights Reserved .    </div>
+</body>
+</html>

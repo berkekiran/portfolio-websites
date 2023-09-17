@@ -1,0 +1,1823 @@
+html {
+	-webkit-text-size-adjust: none;
+	touch-action: manipulation;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+::-moz-selection { 
+    color: #000000;
+    background: #c2c2c2;
+}
+  
+::selection {
+    color: #000000;
+    background: #c2c2c2;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+
+section{
+    display: inline-block;
+    width: 100%;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.highlight{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.headerinfo{
+    margin-top: 15rem;
+    margin-left: 10rem;
+    float: left;
+    line-height: 1.5rem;
+}
+
+.headerprofileimage{
+    margin-top: 7.5rem;
+    margin-left: 10rem;
+    float: left;
+}
+
+.headerprofileimage img{
+    width: 30rem;
+    height: auto;
+    border-radius: 30rem;
+}
+
+.headerprofileimagemobile{
+    display: none;
+    margin-top: 7.5rem;
+    margin-left: 10rem;
+    float: left;
+}
+
+.headerprofileimagemobile img{
+    width: 30rem;
+    height: auto;
+    border-radius: 30rem;
+}
+
+.header-section h1{
+    font-size: 5rem;
+    font-weight: 600;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.header-section h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.header-section p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+#headerinfo-p{
+    display: block;
+}
+
+#headerinfo-p-mobile{
+    display: none;
+}
+
+.alert{
+    display: inline-block;
+    width: 100%;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.alerthide{
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.alertshow{
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.alert i{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-1rem); }
+    100% { transform: translateY(0); }
+}
+
+.menubarcontainer{
+    position: fixed;
+    width: 1600px;
+    z-index: 5;
+    height: auto;
+}
+
+.menubar{
+    float: right;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #f3f3f3;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    padding-top: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.menubar a{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubar a:hover{
+    color: #5385f7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubutton-mobile{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    top: 0.25rem;
+    right: 0rem;
+    padding: 1.5rem;
+    transform: scale(0.5);
+    color: #f3f3f3;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    background-color: #000;
+    border: 0.5rem #000 solid;
+    border-radius: 6rem;
+    z-index: 2;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubutton-mobile:hover{
+    background-color: #5385f7;
+    border-color: #5385f7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubutton-mobile-active{
+    background-color: #f75353;
+    border-color: #f75353;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubarcontainer-mobile{
+    position: fixed;
+    display: none;
+    background-color: #f3f3f3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.menubar-mobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;    
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style-type: none;
+}
+
+.menubar-mobile li{
+    margin-top: 2rem;
+}
+
+.menubar-mobile li:first-child{
+    margin-top: 0;
+}
+
+.menubar-mobile li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    width: 5rem;
+    height: 2rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubar-mobile a:hover{
+    color: #5385f7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.about-me-section h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.about-me-section p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.currently{
+    margin-left: 5rem;
+    float: left;
+}
+
+#currently-p{
+    display: block;
+}
+
+#currently-p-mobile{
+    display: none;
+}
+
+.about-me-info{
+    margin-left: 10rem;
+    float: left;
+}
+
+#about-me-tab-p{
+    display: block;
+}
+
+#about-me-tab-p-mobile{
+    display: none;
+}
+
+.tabs{
+    display: block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.tabs li{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-left: 1.5rem;
+    color: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabs li:first-child{
+    margin-left: 0;
+}
+
+.tabs li:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabactive{
+    color: #000 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabinactive{
+    color: #707070 !important;
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabspanel{
+    display: block;
+    height: 20.125rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+}
+
+#awards-tab{
+    display: none;
+}
+
+#awards-tab-ul{
+    display: block;
+}
+
+#awards-tab-ul-mobile{
+    display: none;
+}
+
+#experience-tab-ul{
+    display: block;
+}
+
+#experience-tab-ul-mobile{
+    display: none;
+}
+
+#education-tab-ul{
+    display: block;
+}
+
+#education-tab-ul-mobile{
+    display: none;
+}
+
+#awards-tab ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#awards-tab ul li{
+    display: block;
+    margin-top: 1.125rem;
+}
+
+#awards-tab ul li i{
+    padding-right: 0.5rem;
+}
+
+#experience-tab{
+    display: none;
+}
+
+#experience-tab ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#experience-tab ul li{
+    display: block;
+    margin-top: 1.125rem;
+}
+
+#experience-tab ul li i{
+    padding-right: 0.5rem;
+}
+
+#education-tab{
+    display: none;
+}
+
+#education-tab ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#education-tab ul li{
+    display: block;
+    margin-top: 1.125rem;
+}
+
+#education-tab ul li i{
+    padding-right: 0.5rem;
+}
+
+.videos-section h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.videos-section p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+#othervideosinfo-p{
+    display: block;
+}
+
+#othervideosinfo-p-mobile{
+    display: none;
+}
+
+.recentvideo{
+    margin-left: 5rem;
+    float: left;
+    width: 35rem;
+    text-align: left;
+}
+
+.recentvideo p{
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.recentvideocontainer{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.recentvideoiframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.recentvideoiframe:hover{
+    cursor: pointer;
+}
+  
+.othervideos{
+    margin-left: 10rem;
+    float: left;
+    max-width: 50%;
+    text-align: left;
+}
+
+.othervideos p{
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.othervideos ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.othervideos ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    width: 20rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+}
+
+.othervideos ul li:first-child{
+    margin-left: 0;
+}
+
+.othervideos ul li p{
+    margin-top: 2rem;
+}
+
+.othervideos p a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #44bbee;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.othervideos p a:hover{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.othervideoscontainer01{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.othervideosiframe01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.othervideosiframe01:hover{
+    cursor: pointer;
+}
+
+.othervideoscontainer02{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.othervideosiframe02{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.othervideosiframe02:hover{
+    cursor: pointer;
+}
+
+.characters-section{
+    padding-top: 2.5rem;
+}
+
+.characterscontainer{
+    text-align: center;
+}
+
+.characterscontainer h1{
+    font-size: 2rem;
+    font-weight: 600;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.characterscontainer h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.characterscontainer p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    padding-bottom: 2rem;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.characterscontainer div{
+    list-style-type: none;
+    padding: 0;
+}
+
+.characterscontainer div a{
+    display: inline-block;
+    margin-left: 2rem;
+    max-width: 20rem !important;
+    max-height: 25rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.characterscontainer div a:hover .characternames{
+    color: #5385f7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.characterscontainer div a:first-child{
+    margin-left: 0;
+}
+
+.characternames{
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.characterscontainer p a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #44bbee;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.characterscontainer p a:hover{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.character01{
+    border-radius: 0.5rem;
+    background-image: url('../images/characters/character01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.character01:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.character02{
+    border-radius: 0.5rem;
+    background-image: url('../images/characters/character02.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21.125rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.character02:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.character03{
+    border-radius: 0.5rem;
+    background-image: url('../images/characters/character03.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.character03:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.projects-section{
+    padding-top: 2.5rem;
+}
+
+.projectscontainer{
+    text-align: center;
+}
+
+.projectscontainer h1{
+    font-size: 2rem;
+    font-weight: 600;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.projectscontainer h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.projectscontainer p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    padding-bottom: 2rem;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.projectscontainer div{
+    list-style-type: none;
+    padding: 0;
+}
+
+.projectscontainer div a{
+    display: inline-block;
+    margin-left: 2rem;
+    max-width: 20rem !important;
+    max-height: 25rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.projectscontainer div a:hover .projectnames{
+    color: #5385f7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.projectscontainer div a:first-child{
+    margin-left: 0;
+}
+
+.projectnames{
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.projectscontainer p a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #44bbee;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.projectscontainer p a:hover{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.project01{
+    border-radius: 0.5rem;
+    background-image: url('../images/projects/project01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.project01:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.project02{
+    border-radius: 0.5rem;
+    background-image: url('../images/projects/project02.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.project02:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.project03{
+    border-radius: 0.5rem;
+    background-image: url('../images/projects/project03.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.project03:hover{
+    transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-section{
+    padding-bottom: 5rem;
+}
+
+.contactinfo{
+    margin-left: 10rem;
+    float: left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.contact-section h1{
+    font-size: 4rem;
+    font-weight: 600;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.contact-section h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+.contact-section p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+} 
+
+#contactinfo-p{
+    display: block;
+}
+
+#contactinfo-p-mobile{
+    display: none;
+}
+
+.centerlike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.socialmedialinks{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #707070;
+}
+
+.socialmedialinks a{
+    text-decoration: none;
+    color: #44bbee;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.socialmedialinks a:hover{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    margin-top: 7.5rem;
+    font-size: 0.925rem;
+    font-weight: 400;
+    color: #707070;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text; 
+}
+
+.reachout{
+    text-decoration: none;
+    color: #44bbee;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.reachout:hover{
+    color: #5385f7 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .menubarcontainer-mobile {
+        display: none !important;
+    }
+
+    .menubutton-mobile {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+    .wrapper{
+        max-width: 1200px;
+    }
+    
+    section{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .menubarcontainer{
+        width: 1200px;
+    }
+
+    .menubarcontainer-mobile {
+        display: none !important;
+    }
+
+    .menubutton-mobile {
+        display: none !important;
+    }
+
+    .menubar{
+        font-size: 0.95rem;
+    }
+
+    .headerinfo{
+        margin-top: 12.5rem;
+        margin-left: 7.5rem;
+    }
+    
+    .headerprofileimage{
+        margin-top: 10rem;
+        margin-left: 7.5rem;
+    }
+    
+    .headerprofileimage img{
+        width: 20rem;
+        border-radius: 20rem;
+    }
+    
+    .header-section h1{
+        font-size: 4rem;
+    } 
+    
+    .header-section h2{
+        font-size: 1.25rem;
+    } 
+    
+    .header-section p{
+        font-size: 1rem;
+    } 
+    
+    .about-me-section h2{
+        font-size: 1.25rem;
+    } 
+    
+    .about-me-section p{
+        font-size: 1rem;
+    } 
+    
+    .currently{
+        margin-left: 0rem;
+    }
+    
+    .about-me-info{
+        margin-left: 4rem;
+    }
+
+    .tabs li{
+        font-size: 1.25rem;
+        margin-left: 1.25rem;
+    }
+    
+    .tabspanel{
+        height: 20.125rem;
+        font-size: 1rem;
+    }
+    
+    .videos-section h2{
+        font-size: 1.25rem;
+        padding-bottom: 1rem;
+    } 
+    
+    .videos-section p{
+        font-size: 1rem;
+        line-height: 2rem;
+    } 
+    
+    .recentvideo{
+        margin-left: 0;
+        width: 30rem;
+    }
+    
+    .recentvideo p{
+        font-size: 1rem;
+        margin-top: 1.25rem;
+    }
+    
+    .othervideos{
+        margin-left: 8.5rem;
+    }
+    
+    .othervideos p{
+        margin-top: 1.25rem;
+    }
+    
+    .othervideos ul li{
+        margin-left: 2rem;
+        width: 15rem;
+    }
+
+    .othervideos ul li p{
+        margin-top: 1.25rem;
+    }
+    
+    .characterscontainer h1{
+        font-size: 1.25rem;
+    } 
+    
+    .characterscontainer h2{
+        font-size: 1rem;
+    } 
+    
+    .characterscontainer p{
+        font-size: 1rem;
+    } 
+    
+    .projectscontainer h1{
+        font-size: 1.25rem;
+    } 
+    
+    .projectscontainer h2{
+        font-size: 1rem;
+    } 
+    
+    .projectscontainer p{
+        font-size: 1rem;
+    } 
+
+    .contact-section{
+        padding-bottom: 5rem;
+    }
+    
+    .contactinfo{
+        margin-left: 10rem;
+        float: left;
+    }
+    
+    .contact-section h1{
+        font-size: 3rem;
+    } 
+    
+    .contact-section h2{
+        font-size: 1.25rem;
+    } 
+    
+    .contact-section p{
+        font-size: 1rem;
+        line-height: 2rem;
+    } 
+    
+    .centerlike{
+        font-size: 3rem;
+    }
+    
+    .socialmedialinks{
+        margin-top: 2rem;
+        margin-left: 10rem;
+        font-size: 1rem;
+    }
+    
+    .copyright{
+        margin-top: 10rem;
+        font-size: 0.925rem;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 720px) {
+    .wrapper{
+        max-width: 720px;
+    }
+    
+    section{
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .menubarcontainer{
+        width: 720px;
+    }
+
+    .menubar{
+        display: none;
+    }
+
+    .headerinfo{
+        float: none;
+        margin-top: 5em;
+        margin-left: auto;
+    }
+    
+    .headerprofileimage{
+        display: none;
+    }
+    
+    .header-section h1{
+        font-size: 3rem;
+        text-align: center;
+    } 
+    
+    .header-section h2{
+        font-size: 1.125rem;
+        text-align: center;
+    } 
+    
+    .header-section p{
+        font-size: 0.95rem;
+        text-align: center;
+    } 
+
+    .alert{
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .headerprofileimagemobile{
+        display: block;
+        margin-top: 2.5rem;
+        text-align: center;
+        float: none;
+        margin-left: auto;
+    }
+    
+    .headerprofileimagemobile img{
+        width: 17.5rem;
+        border-radius: 17.5rem;
+    }
+    
+    .menubutton-mobile {
+        display: block;
+    }
+
+    .about-me-section{
+        text-align: center;
+    }
+
+    .about-me-section h2{
+        font-size: 1.125rem;
+    } 
+    
+    .about-me-section p{
+        font-size: 0.95rem;
+    } 
+    
+    .currently{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .about-me-info{
+        margin-top: 5rem;
+        margin-left: auto;
+        float: none;
+    }
+
+    .tabs li{
+        font-size: 1.125rem;
+        margin-left: 1.125rem;
+    }
+    
+    .tabspanel{
+        height: 20.125rem;
+        font-size: 0.95rem;
+        line-height: 2rem;
+    }
+
+    .videos-section h2{
+        font-size: 1.125rem;
+        padding-bottom: 1rem;
+    } 
+    
+    .videos-section p{
+        font-size: 0.95rem;
+        line-height: 2rem;
+    } 
+    
+    .recentvideo{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 30rem;
+    }
+    
+    .recentvideo p{
+        font-size: 0.95rem;
+        margin-top: 1.25rem;
+        text-align: center;
+        
+    }
+    
+    .othervideos{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 100%;
+    }
+    
+    .othervideos p{
+        margin-top: 1.25rem;
+    }
+    
+    .othervideos ul li{
+        margin-left: auto;
+        margin-right: auto;
+        width: 30rem;
+        margin-top: 1.5rem;
+    }
+
+    .othervideos ul li:first-child{
+        margin-top: 0;
+    }
+
+    .othervideos ul li p{
+        margin-top: 1.25rem;
+    }
+
+    .characters-section{
+        padding-top: 2.5rem;
+    }
+        
+    .characterscontainer{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30rem;
+    }
+
+    .characterscontainer h1{
+        font-size: 1.125rem;
+    } 
+    
+    .characterscontainer h2{
+        font-size: 0.95rem;
+    } 
+    
+    .characterscontainer p{
+        font-size: 0.95rem;
+        padding-bottom: 2rem;
+    } 
+    
+    .characterscontainer div a{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .characterscontainer div a:first-child{
+        margin-top: 0;
+    }
+
+    .projectscontainer{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30rem;
+    }
+
+    .projectscontainer h1{
+        font-size: 1.125rem;
+    } 
+    
+    .projectscontainer h2{
+        font-size: 0.95rem;
+    } 
+    
+    .projectscontainer p{
+        font-size: 0.95rem;
+        padding-bottom: 2rem;
+    } 
+    
+    .projectscontainer div a{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .projectscontainer div a:first-child{
+        margin-top: 0;
+    }
+
+    .contact-section{
+        padding-bottom: 5rem;
+    }
+    
+    .contactinfo{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .contact-section h1{
+        font-size: 3rem;
+        text-align: center;
+    } 
+    
+    .contact-section h2{
+        font-size: 1.125rem;
+        text-align: center;
+    } 
+    
+    .contact-section p{
+        font-size: 0.95rem;
+        line-height: 2rem;
+        text-align: center;
+    } 
+    
+    .centerlike{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .socialmedialinks{
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    
+    .copyright{
+        margin-top: 7.5rem;
+        font-size: 0.825rem;
+    }
+
+}
+
+@media only screen and (max-width: 720px){
+    .wrapper{
+        max-width: 480px;
+    }
+    
+    section{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .menubarcontainer{
+        width: 480px;
+    }
+
+    .menubar{
+        display: none;
+    }
+
+    .headerinfo{
+        float: none;
+        margin-top: 3.5em;
+        margin-left: auto;
+    }
+    
+    .headerprofileimage{
+        display: none;
+    }
+    
+    .header-section h1{
+        font-size: 2rem;
+        text-align: center;
+    } 
+    
+    .header-section h2{
+        font-size: 0.95rem;
+        text-align: center;
+    } 
+    
+    .header-section p{
+        font-size: 0.725rem;
+        text-align: center;
+    } 
+
+    #headerinfo-p{
+        display: none;
+    }
+
+    #headerinfo-p-mobile{
+        display: block;
+    }
+
+    .menubutton-mobile {
+        display: block;
+    }
+
+    .alert{
+        margin-top: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .headerprofileimagemobile{
+        display: block;
+        margin-top: 2.5rem;
+        text-align: center;
+        float: none;
+        margin-left: auto;
+    }
+    
+    .headerprofileimagemobile img{
+        width: 12.5rem;
+        border-radius: 12.5rem;
+    }
+
+    .about-me-section{
+        text-align: center;
+    }
+
+    .about-me-section h2{
+        font-size: 0.95rem;
+    } 
+    
+    .about-me-section p{
+        font-size: 0.725rem;
+    } 
+    
+    .currently{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #currently-p{
+        display: none;
+    }
+    
+    #currently-p-mobile{
+        display: block;
+    }
+
+    .about-me-info{
+        margin-top: 5rem;
+        margin-left: auto;
+        float: none;
+    }
+
+    #about-me-tab-p{
+        display: none;
+    }
+    
+    #about-me-tab-p-mobile{
+        display: block;
+    }
+
+    .tabs li{
+        font-size: 0.95rem;
+        margin-left: 0.95rem;
+    }
+    
+    .tabspanel{
+        height: 20.125rem;
+        font-size: 0.725rem;
+        line-height: 2rem;
+    }
+
+    #awards-tab-ul{
+        display: none;
+    }
+    
+    #awards-tab-ul-mobile{
+        display: block;
+    }
+
+    #experience-tab-ul{
+        display: none;
+    }
+    
+    #experience-tab-ul-mobile{
+        display: block;
+    }
+
+    #education-tab-ul{
+        display: none;
+    }
+    
+    #education-tab-ul-mobile{
+        display: block;
+    }
+
+    .videos-section h2{
+        font-size: 0.95rem;
+        padding-bottom: 1rem;
+    } 
+    
+    .videos-section p{
+        font-size: 0.725rem;
+        line-height: 2rem;
+    } 
+
+    #othervideosinfo-p{
+        display: none;
+    }
+    
+    #othervideosinfo-p-mobile{
+        display: block;
+    }
+    
+    .recentvideo{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 20rem;
+    }
+    
+    .recentvideo p{
+        font-size: 0.725rem;
+        margin-top: 0.95rem;
+        text-align: center;
+        max-width: 90%;
+    }
+    
+    .othervideos{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 100%;
+    }
+    
+    .othervideos p{
+        margin-top: 0.95rem;
+    }
+    
+    .othervideos ul li{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        margin-top: 1.5rem;
+    }
+
+    .othervideos ul li:first-child{
+        margin-top: 0;
+    }
+
+    .othervideos ul li p{
+        margin-top: 0.95rem;
+    }
+
+    .characters-section{
+        padding-top: 2.5rem;
+    }
+        
+    .characterscontainer{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 25rem;
+    }
+
+    .characterscontainer h1{
+        font-size: 0.95rem;
+    } 
+    
+    .characterscontainer h2{
+        font-size: 0.725rem;
+    } 
+    
+    .characterscontainer p{
+        font-size: 0.725rem;
+        padding-bottom: 2rem;
+    } 
+    
+    .characterscontainer div a{
+        margin-top: 2rem;
+        margin-left: 0;
+        max-width: 17.5rem !important;
+        max-height: 22.5rem;
+        width: 17.5rem;
+        height: 22.5rem;
+    }
+
+    .characterscontainer div a:first-child{
+        margin-top: 0;
+    }
+
+    .projectscontainer{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 25rem;
+    }
+
+    .projectscontainer h1{
+        font-size: 1.125rem;
+    } 
+    
+    .projectscontainer h2{
+        font-size: 0.725rem;
+    } 
+    
+    .projectscontainer p{
+        font-size: 0.725rem;
+        padding-bottom: 2rem;
+    } 
+    
+    .projectscontainer div a{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .projectscontainer div a:first-child{
+        margin-top: 0;
+    }
+
+    .projectscontainer div a{
+        margin-top: 2rem;
+        margin-left: 0;
+        max-width: 17.5rem !important;
+        max-height: 22.5rem;
+        width: 17.5rem;
+        height: 22.5rem;
+    }
+
+    .contact-section{
+        padding-bottom: 5rem;
+    }
+    
+    .contactinfo{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .contact-section h1{
+        font-size: 2rem;
+        text-align: center;
+    } 
+    
+    .contact-section h2{
+        font-size: 0.95rem;
+        text-align: center;
+    } 
+    
+    .contact-section p{
+        font-size: 0.725rem;
+        line-height: 2rem;
+        text-align: center;
+    } 
+
+    #contactinfo-p{
+        display: none;
+    }
+    
+    #contactinfo-p-mobile{
+        display: block;
+    }
+    
+    .centerlike{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .socialmedialinks{
+        display: block;
+        max-width: 25rem;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.725rem;
+        text-align: center;
+    }
+    
+    .copyright{
+        margin-top: 5rem;
+        font-size: 0.725rem;
+    }
+
+}
+

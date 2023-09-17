@@ -1,0 +1,363 @@
+<!-- Developed by Berke Kıran in 2021. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Search Engines -->
+    <title>Berke Kıran</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Hi! I’m Berke Kiran a self-taught Game Developer for 12+ years. I like to write game & film stories for 16+ years. All these years, I’m focusing to improve my skills to be a game studio lead.">
+    <meta name="keywords" content="berke, Berke, berke kıran, berke kiran, berkekıran, berkekiran, Berke Kıran, Berke Kiran, game, game developer, game development, character artist, modelling, texturing, rigging, animating, video game, video game developer">
+    <meta name="author" content="Berke Kıran">
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true">
+    <!-- Androclass -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Androclass Tab Color -->
+    <meta name="theme-color" content="#1e1e22">
+    <!-- External -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" defer/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#f3f3f3">
+    <meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#f3f3f3">
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="menubarcontainer">
+            <div class="menubar">
+                <a class="menubuttons home highlight" href="#home">Home</a>
+                <a class="menubuttons about-me" href="#about-me">About Me</a>
+                <a class="menubuttons videos" href="#videos">Videos</a>
+                <a class="menubuttons characters" href="#characters">Characters</a>
+                <a class="menubuttons projects" href="#projects">Projects</a>
+                <a class="menubuttons contact" href="#contact">Contact</a>
+            </div>
+        </div>
+        <button class="menubutton-mobile" onclick="toggleMenu()">Menu</button>
+        <div class="menubarcontainer-mobile">
+            <ul class="menubar-mobile">
+                <li><a class="menubuttons home highlight" href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a class="menubuttons about-me" href="#about-me" onclick="closeMenu()">About Me</a></li>
+                <li><a class="menubuttons videos" href="#videos" onclick="closeMenu()">Videos</a></li>
+                <li><a class="menubuttons characters" href="#characters" onclick="closeMenu()">Characters</a></li>
+                <li><a class="menubuttons projects" href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a class="menubuttons contact" href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+
+        <section class="header-section" id="home">
+            <div class="headerprofileimagemobile">
+                <img src="images/berkeprofileimage.webp"/>
+            </div>
+            <div class="headerinfo">
+                <h2>Game Developer for 12+ years</h2>
+                <h1>Hello, I'm <span class="highlight">Berke.</span></h1>
+                <p id="headerinfo-p">I’m designing & developing games for many years. Now, I'm a studio lead <br>
+                    and chief executive officer of a new game studio startup.</p>
+                <p id="headerinfo-p-mobile">I’m designing & developing games for many years. <br>
+                                            Now, I'm a studio lead and chief executive officer <br>
+                                            of a new game studio startup.</p>
+            </div>
+            <div class="headerprofileimage">
+                <img src="images/berkeprofileimage.webp"/>
+            </div>
+            <div class="alert">
+                <i class="fas fa-window-minimize"></i>
+            </div>
+        </section>
+        <section class="about-me-section" id="about-me">
+            <div class="currently">
+                <h2>Currently</h2>
+                <p id="currently-p">I'm studio lead and chief executive officer of a new game studio startup. <br>
+                    Me, co-founder and chief financial officer Umut Karadirek and our <br>
+                    experienced team will create new indie AAA games.<br>
+                    <br>
+                    We are looking for an investor. If you want to check our presentation and <br>
+                    demo of the game, feel free to <a class="reachout" target="_blank" href="mailto:berkekiranofficial@hotmail.com">reach out.</a></p>
+                <p id="currently-p-mobile"> I'm studio lead and chief executive officer of a new<br> 
+                                            game studio startup. Me, co-founder and chief financial<br>
+                                            officer Umut Karadirek and our experienced team will<br>
+                                            create new indie AAA games.<br>
+                                            <br>
+                                            We are looking for an investor. If you want to check<br>
+                                            our presentation and demo of the game, <br>
+                                            feel free to <a class="reachout" target="_blank" href="mailto:berkekiranofficial@hotmail.com">reach out.</a></p>
+            </div>
+            <div class="about-me-info">
+                <ul class="tabs">
+                    <li class="tabbuttons tabactive" onclick="openAboutMeTab(event, 'about-me-tab')">About Me</li>
+                    <li class="tabbuttons tabinactive" onclick="openAboutMeTab(event, 'awards-tab')">Awards</li>
+                    <li class="tabbuttons tabinactive" onclick="openAboutMeTab(event, 'experience-tab')">Experience</li>
+                    <li class="tabbuttons tabinactive" onclick="openAboutMeTab(event, 'education-tab')">Education</li>
+                </ul>
+                <div class="tabspanels">
+                    <div class="tabspanel" id="about-me-tab">
+                        <p id="about-me-tab-p">Hi! I’m Berke Kiran a self-taught Game Developer for 12+ years. I like to <br>
+                            write game & film stories for 16+ years.<br>
+                            <br>
+                            All these years, I’m focusing to improve my skills to be a game studio lead.<br>
+                            <br>
+                            These skills are: programming, 3d modelling (hard surface & organic models), <br>
+                            texturing, rigging and animating, VFX design, UI/UX design, sound design,  <br>
+                            level design, game design, writing scripts/stories, marketing, game project <br>
+                            management and financial management of game studio.</p>
+                        <p id="about-me-tab-p-mobile">  Hi! I’m Berke Kiran a self-taught Game Developer <br>
+                                                        for 12+ years. I like to write game & film stories <br>
+                                                        for 16+ years.<br>
+                                                        <br>
+                                                        All these years, I’m focusing to improve my skills <br>
+                                                        to be a game studio lead.<br>
+                                                        <br>
+                                                        These skills are: programming, 3d modelling (hard <br>
+                                                        surface & organic models), texturing, rigging and <br>
+                                                        animating, VFX design, UI/UX design, sound design, <br>
+                                                        level design, game design, writing scripts/stories, <br>
+                                                        marketing, game project management and financial <br>
+                                                        management of game studio.</p>
+                    </div>
+                    <div class="tabspanel" id="awards-tab">
+                        <ul id="awards-tab-ul">
+                            <li>
+                                Next In Game, Turkey (September 2021)<br>
+                                <span class="highlight"><i class="fas fa-trophy fa-xs"></i> Next Game Startup 2021 Third Award Winner</span><br>
+                                In Next Game Startup 2021, which 72 teams and a total of 122</span> people participated,<br>
+                                I won the third award with the game I developed alone in 7 months</span>.
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School, Turkey (June 2015)<br>
+                                <span class="highlight"><i class="fas fa-trophy fa-xs"></i> Outstanding Achievement Certificate</span>
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School, Turkey (January 2015)<br>
+                                <span class="highlight"><i class="fas fa-award fa-xs"></i> Honor Certificate</span>
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School , Turkey (January 2013)<br>
+                                <span class="highlight"><i class="fas fa-award fa-xs"></i> Honor Certificate</span>
+                            </li>
+                        </ul>
+                        <ul id="awards-tab-ul-mobile">
+                            <li>
+                                Next In Game, Turkey <br>
+                                (September 2021)<br>
+                                <span class="highlight"><i class="fas fa-trophy fa-xs"></i> Next Game Startup 2021 Third Award Winner</span><br>
+                                In Next Game Startup 2021, which 72 teams and a total <br>
+                                of 122</span> people participated,I won the third award <br>
+                                with the game I developed alone in 7 months</span>.
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School, Turkey <br>
+                                (June 2015)<br>
+                                <span class="highlight"><i class="fas fa-trophy fa-xs"></i> Outstanding Achievement Certificate</span>
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School, Turkey <br>
+                                (January 2015)<br>
+                                <span class="highlight"><i class="fas fa-award fa-xs"></i> Honor Certificate</span>
+                            </li>
+                            <li>
+                                OIB Automotive Technical High School , Turkey <br>
+                                (January 2013)<br>
+                                <span class="highlight"><i class="fas fa-award fa-xs"></i> Honor Certificate</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabspanel" id="experience-tab">
+                        <ul id="experience-tab-ul">
+                            <li>
+                            Backpack Games, Turkey (July 2020 - August 2020)<br>
+                            <span class="highlight">Unity Developer Intern</span>
+                            </li>
+                            <li>
+                            Linetec Studio, Germany (July 2018 - December 2018)<br>
+                            <span class="highlight">Freelance Character Artist</span>
+                            </li>
+                            <li>
+                            TaleWorlds Entertainment, Turkey (June 2018 - July 2018)<br>
+                            <span class="highlight">3D Artist Intern</span>
+                            </li>
+                            <li>
+                            Ekim Gida, Turkey (July 2013 - August 2013)<br>
+                            <span class="highlight">IT Specialist Intern</span>
+                            </li>
+                            <li>
+                            Uludag Ihracatcilar Birligi, Turkey (July 2012 - August 2012)<br>
+                            <span class="highlight">IT Specialist Intern</span>
+                            </li>
+                        </ul>
+                        <ul id="experience-tab-ul-mobile">
+                            <li>
+                            Backpack Games, Turkey <br>
+                            (July 2020 - August 2020)<br>
+                            <span class="highlight">Unity Developer Intern</span>
+                            </li>
+                            <li>
+                            Linetec Studio, Germany <br>
+                            (July 2018 - December 2018)<br>
+                            <span class="highlight">Freelance Character Artist</span>
+                            </li>
+                            <li>
+                            TaleWorlds Entertainment, Turkey <br>
+                            (June 2018 - July 2018)<br>
+                            <span class="highlight">3D Artist Intern</span>
+                            </li>
+                            <li>
+                            Ekim Gida, Turkey <br>
+                            (July 2013 - August 2013)<br>
+                            <span class="highlight">IT Specialist Intern</span>
+                            </li>
+                            <li>
+                            Uludag Ihracatcilar Birligi, Turkey <br>
+                            (July 2012 - August 2012)<br>
+                            <span class="highlight">IT Specialist Intern</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabspanel" id="education-tab">
+                        <ul id="education-tab-ul">
+                            <li>
+                            Karabuk University, Turkey (September 2015 – September 2021)<br>
+                            <span class="highlight">Bachelor of Computer Engineering</span><br>
+                            GPA: <span class="highlight">3.0/4.0</span>
+                            </li>
+                            <li>
+                            OIB Automotive Technical High School, Turkey (September 2011 – June 2015)<br>
+                            <span class="highlight">IT Database Programming</span><br>
+                            Diploma Score: <span class="highlight">87/100</span><br>
+                            <i class="fas fa-graduation-cap fa-xs"></i> Graduated in 2015 with a class rank of <span class="highlight">second</span> out of 724 graduates.
+                            </li>
+                        </ul>
+                        <ul id="education-tab-ul-mobile">
+                            <li>
+                            Karabuk University, Turkey<br>
+                            (September 2015 – September 2021)<br>
+                            <span class="highlight">Bachelor of Computer Engineering</span><br>
+                            GPA: <span class="highlight">3.0/4.0</span>
+                            </li>
+                            <li>
+                            OIB Automotive Technical High School, Turkey <br>
+                            (September 2011 – June 2015)<br>
+                            <span class="highlight">IT Database Programming</span><br>
+                            Diploma Score: <span class="highlight">87/100</span><br>
+                            <i class="fas fa-graduation-cap fa-xs"></i> Graduated in 2015 with a class rank of <span class="highlight">second</span> <br>
+                            out of 724 graduates.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="videos-section" id="videos">
+            <div class="recentvideo">
+                <h2>Watch My Recent Video</h2>
+                <div class="recentvideocontainer">
+                    <iframe class="recentvideoiframe" src="https://www.youtube.com/embed/BEODs-I3Hc8" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                    <a href=https://www.youtube.com/embed/BEODs-I3Hc8?modestbranding=1&autohide=1&showinfo=0&rel=0><img src=https://img.youtube.com/vi/BEODs-I3Hc8/maxresdefault.jpg><span>▶</span></a>
+                    "frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <p>Souls of the Fallen God: The Story of the King's Son Demo Trailer<br>
+                    (Story-driven action role-playing video game.)</p>
+            </div>
+            <div class="othervideos">
+                <h2>Watch My Other Videos</h2>
+                <ul>
+                    <li>
+                        <div class="othervideoscontainer01">
+                            <iframe class="othervideosiframe01" src="https://www.youtube.com/embed/Y8wuQJ5fzdc" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                                <a href=https://www.youtube.com/embed/Y8wuQJ5fzdc?modestbranding=1&autohide=1&showinfo=0&rel=0><img src=https://img.youtube.com/vi/Y8wuQJ5fzdc/maxresdefault.jpg><span>▶</span></a>
+                                "frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="othervideoscontainer01info">Souls of the Fallen God Demo<br> Gameplay Trailer</p>
+                    </li>
+                    <li>
+                        <div class="othervideoscontainer02">
+                            <iframe class="othervideosiframe02" src="https://www.youtube.com/embed/pW6vgLOfgKU" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                            <a href=https://www.youtube.com/embed/pW6vgLOfgKU?modestbranding=1&autohide=1&showinfo=0&rel=0><img src=https://img.youtube.com/vi/pW6vgLOfgKU/maxresdefault.jpg><span>▶</span></a>
+                            "frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                      </div>
+                      <p class="othervideoscontainer02info">Adam Noise: The Prologue<br> Teaser Trailer</p>
+                    </li>
+                </ul>
+                <p id="othervideosinfo-p" class="othervideosinfo">You can also check out my <a target="_blank" href="https://www.youtube.com/channel/UC-Q2BW9MeH3LJUOvcB36TRg">YouTube channel</a> to watch my other videos.</p>
+                <p id="othervideosinfo-p-mobile" class="othervideosinfo">You can also check out my <a target="_blank" href="https://www.youtube.com/channel/UC-Q2BW9MeH3LJUOvcB36TRg">YouTube channel</a><br>
+                    to watch my other videos.</p>
+            </div>
+        </section>
+        <section class="characters-section" id="characters">
+            <div class="characterscontainer">
+                <h2>Characters</h2>
+                <h1>Some of My Recent Characters</h1>
+                <p class="characterscontainerinfo">You can visit my <a target="_blank" href="https://www.artstation.com/berke">Artstation profile</a> to see my other <span class="highlight">14</span> characters.</p>
+                <div>
+                    <a id="character01link" target="_blank" href="https://www.artstation.com/artwork/lxdqEJ"><div class="character01"></div><p class="characternames">Future</p></a>
+                    <a id="character02link" target="_blank" href="https://www.artstation.com/artwork/0n5n5V"><div class="character02"></div><p class="characternames">Hunter</p></a>
+                    <a id="character03link" target="_blank" href="https://www.artstation.com/artwork/5XP4RE"><div class="character03"></div><p class="characternames">The Destroyer</p></a>
+                </div>
+            </div>
+        </section>
+        <section class="projects-section" id="projects">
+            <div class="projectscontainer">
+                <h2>Projects</h2>
+                <h1>Some of My Recent Projects</h1>
+                <p class="projectscontainerinfo">You can visit my <a target="_blank" href="https://github.com/berkekiran">Github profile</a> to see my other <span class="highlight">28</span> projects.</p>
+                <div>
+                    <a id="project01link" target="_blank" href="https://github.com/berkekiran/python-django-restaurant-website-project"><div class="project01"></div><p class="projectnames">Django Restaurant Website</p></a>
+                    <a id="project02link" target="_blank" href="https://github.com/berkekiran/laravel-business-website-project"><div class="project02"></div><p class="projectnames">Laravel Business Website</p></a>
+                    <a id="project03link" target="_blank" href="https://github.com/berkekiran/mortal-dungeon"><div class="project03"></div><p class="projectnames">Mortal Dungeon Game</p></a>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="contactinfo">
+                <i class="highlight centerlike fas fa-hand-spock"></i>
+                <br>
+                <h1><span class="highlight">Thank you</span> for visiting my website.</h1>
+                <h2>Have a fantastic day!</h2>
+                <p id="contactinfo-p">If you have a project you’d like to discuss, feel free to <a class="reachout" target="_blank" href="mailto:berkekiranofficial@hotmail.com">reach out.</a></p>
+                <p id="contactinfo-p-mobile">If you have a project you’d like to discuss, <br>
+                    feel free to <a class="reachout" target="_blank" href="mailto:berkekiranofficial@hotmail.com">reach out.</a></p>
+            </div>
+            <div class="socialmedialinks">
+                <a target="_blank" href="https://www.linkedin.com/in/berkekiran/">Linkedin</a> /
+                <a target="_blank" href="https://twitter.com/berke_kiran">Twitter</a> /
+                <a target="_blank" href="https://www.youtube.com/channel/UC-Q2BW9MeH3LJUOvcB36TRg">Youtube</a> /
+                <a target="_blank" href="https://www.artstation.com/berke">Artstation</a> /
+                <a target="_blank" href="https://github.com/berkekiran">Github</a> /
+                <a target="_blank" href="https://berkekiran.itch.io">Itch.io</a> /
+                <a target="_blank" href="https://www.behance.net/berkekiran">Behance</a> /
+                <a target="_blank" href="https://www.therookies.co/u/berkekiran">The Rookies</a> /
+                <a target="_blank" href="https://soundcloud.com/berkekiran">Soundcloud</a>
+            </div>
+            <span class="copyright">Developed by © Berke Kiran 2021</span>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

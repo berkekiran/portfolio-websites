@@ -1,0 +1,258 @@
+/*
+	Theme Name: Berke KIRAN Website v1.1S
+	Theme URI: http://www.berkekiran.net
+	Author: Berke KIRAN
+	Author URI: http://www.berkekiran.net
+	Description: My personal website design
+	Version: 1.1S
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+html, body{
+  background-color: #1F2223;
+  overflow-x: hidden;
+}
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.75);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #FEB250;
+}
+#logo{
+  margin-top: 86px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  line-height: 40pt;
+  text-align: center;
+}
+#logo a{
+  text-decoration: none;
+}
+#logo a:hover{
+  opacity: 0.75;
+}
+#logo_text1{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 42pt;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#logo_text2{
+  font-family: 'Unica One', cursive;
+  font-size: 22pt;
+  color: #FEB250;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.lines{
+  height: 2px;
+  width: 80%;
+  background-color: #FEB250;
+  border: 0;
+}
+#navi{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#navi a{
+  font-family: 'Unica One', cursive;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 16pt;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#navi a:hover{
+  opacity: 0.75;
+}
+#navi span{
+  font-family: 'Unica One', cursive;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 18pt;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#footer{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#footer a:hover{
+  opacity: 0.75;
+}
+#footer_text{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.content_work{
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 22px;
+  width: 80%;
+  line-height: 18pt;
+}
+.content_work_text0{
+  width: 100%;
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 16pt;
+  text-align: left;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.content_work_img{
+  width: 100%;
+  height: 44%;
+  background-color: grey;
+  margin-top: 22px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+.content_work_img img{
+  margin-top: -20%;
+}
+.content_work_img iframe{
+  height: 100%;
+}
+.content_texts{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 16pt;
+  text-align: left;
+  color: #50B2FE;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.content_work_text1{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 16pt;
+  text-align: left;
+  color: #50B2FE;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.content_work_text2{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: left;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.content_button{
+  text-decoration: none;
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  float: right;
+  color: #50FEB2;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+  border: #50FEB2 2px solid;
+  border-radius: 5px;
+  margin-top: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.content_button:hover{
+  opacity: 0.75;
+}
+#buy_button{
+  margin-left: 6px;
+  text-decoration: none;
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 11pt;
+  color: #FE50B2;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#buy_button:hover{
+  opacity: 0.75;
+}
+#about{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+#about-text1{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: left;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#skills{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#skills-head{
+  color: #50FEB2;
+}
+#contact{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#contact-head{
+  color: #50FEB2;
+}
+#contact a{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+#contact a:hover{
+  opacity: 0.75;
+}
+#error{
+  font-family: 'Unica One', cursive;
+  font-weight: lighter;
+  font-size: 12pt;
+  text-align: center;
+  color: #50FEB2;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 764px) {
+  .content_work_img{
+    height:auto;
+  }
+  .content_work_img img{
+    margin-top: 0;
+  }
+  .content_work_img iframe{
+    height: 44%;
+  }
+}

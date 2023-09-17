@@ -1,0 +1,12 @@
+20170326T141628: berkekiran.net/index.php
+PHP Warning:  include(pages/includes/header.php): failed to open stream: No such file or directory in /hermes/bosnaweb01a/b2532/ipg.berkekirannet/index.php on line 9
+PHP Warning:  include(): Failed opening 'pages/includes/header.php' for inclusion (include_path='.:/usr/local/lib/php-5.5.22-amd64/lib/php') in /hermes/bosnaweb01a/b2532/ipg.berkekirannet/index.php on line 9
+PHP Warning:  include(pages/includes/footer.php): failed to open stream: No such file or directory in /hermes/bosnaweb01a/b2532/ipg.berkek
+20170718T084534: berkekiran.net/portfolio/mail.php
+PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /hermes/bosnacweb01/bosnacweb01af/b2532/ipg.berkekirannet/portfolio/mail.php on line 18
+PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found in /hermes/bosnacweb01/bosnacweb01af/b2532/ipg.berkekirannet/portfolio/mail.php on line 18
+
+20170718T084559: berkekiran.net/portfolio/mail.php
+PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /hermes/bosnacweb01/bosnacweb01af/b2532/ipg.berkekirannet/portfolio/mail.php on line 18
+PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found in /hermes/bosnacweb01/bosnacweb01af/b2532/ipg.berkekirannet/portfolio/mail.php on line 18
+

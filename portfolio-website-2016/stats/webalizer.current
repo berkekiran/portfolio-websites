@@ -1,0 +1,848 @@
+# Webalizer V2.23-08 Incremental Data - 02/16/2017 02:57:02
+2017 2 16 2 57 2
+1933 1616 135 103 38 19 111927350 295 124 1
+1 19 341 1 16
+65 58 4361463 6 6 3
+87 72 8404528 16 9 6
+40 25 337088 14 9 6
+179 170 17394452 17 13 9
+243 238 24581810 20 21 18
+171 160 16435449 17 14 9
+54 39 494996 19 12 5
+84 73 5471344 7 8 5
+71 61 4392971 14 10 7
+90 81 5422800 16 15 11
+76 60 4716710 16 8 5
+31 26 401893 8 8 5
+37 19 260629 12 6 3
+66 37 612924 20 15 12
+620 482 18485119 19 140 19
+19 15 153174 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+27 25 316940 2
+29 19 242589 6
+162 145 13492138 9
+19 5 60626 5
+14 7 128735 3
+59 52 4323876 4
+19 14 63170 1
+4 1 7787 0
+92 85 8235027 6
+130 127 12382971 10
+10 9 124179 3
+83 72 8350228 3
+132 130 12256360 14
+12 12 172525 2
+6 6 38763 2
+69 68 7034474 4
+36 34 3713193 4
+201 168 13119540 38
+562 405 9129924 142
+112 102 11959654 7
+112 95 5350569 22
+11 8 109109 4
+4 1 18905 1
+28 26 1296068 3
+0
+0
+0
+1616
+0
+0
+0
+0
+0
+12
+0
+0
+1
+0
+5
+0
+0
+0
+0
+0
+0
+298
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/assets/css/images/overlay.png
+1 21 0 1160544 0 0
+/images/dragon-warrior01-large.png
+1 1 0 299020 0 0
+/images/apple-icon-120x120.png
+1 4 0 17952 0 0
+/sitemap.xml
+0 5 0 3209 0 0
+/drawing-concepts
+0 12 0 63855 0 0
+/soundtracks
+0 13 0 79702 1 0
+/assets/js/featherlight.min.js
+0 51 0 389079 0 0
+/images/apple-icon-114x114.png
+1 3 0 12945 0 0
+/assets/js/custom.js
+0 16 0 1664 0 0
+/assets/fonts/Roboto-Light.woff
+0 17 0 1496256 0 0
+/assets/images/favicon/favicon-32x32.png
+1 1 0 1296 0 0
+/assets/images/galleries/sculpting-modelling/dragon-concept.png
+1 1 0 249286 0 0
+/assets/images/social/youtube.png
+1 15 0 87810 0 0
+/images/apple-icon-180x180.png
+1 5 0 34625 0 0
+/assets/images/galleries/cgartworks/john-3dcharacter.png
+1 1 0 183405 0 0
+/images/blood-dragon01.png
+1 23 0 2556943 0 0
+/assets/images/galleries/drawing-concepts/thegod.jpg
+1 1 0 34225 0 0
+/images/website-version-0.90-beta.png
+1 19 0 1916644 0 0
+/images/apple-icon-152x152.png
+1 4 0 23152 0 0
+/sculpting-modelling
+0 23 0 113991 0 1
+/assets/images/galleries/drawing-concepts/thegod.png
+1 1 0 182754 0 0
+/assets/fonts/Roboto-Medium.woff
+0 17 0 1519872 0 0
+/images/blood-dragon01-large.png
+1 1 0 1718876 0 0
+/images/road02.png
+1 23 0 7384627 0 0
+/assets/images/social/soundcloud.png
+1 15 0 87330 0 0
+/about
+0 5 0 29188 0 0
+/images/adam-noise01.png
+1 20 0 2010180 0 0
+/assets/images/favicon/manifest.json
+0 1 0 720 0 0
+/images/website-version-0.50-beta.png
+1 24 0 3604272 0 0
+/assets/images/favicon/apple-icon-180x180.png
+1 1 0 4424 0 0
+/images/adam-noise02.png
+1 20 0 1625900 0 0
+/assets/images/favicon/favicon-96x96.png
+1 1 0 2627 0 0
+/images/blood-dragon02-large.png
+1 1 0 1605907 0 0
+/assets/images/bcursor.png
+1 15 0 87280 0 0
+/assets/fonts/fontawesome-webfont.ttf
+0 2 0 305592 0 0
+/stats/usage.png
+1 1 0 2467 0 0
+/assets/images/galleries/drawing-concepts/berkekiran-truth-coverimage.png
+1 1 0 142290 0 0
+/recent-artwork
+0 6 0 28596 0 0
+/assets/js/jquery-1.4.1.min.js
+0 16 0 1133488 0 0
+/images/adam-noise03-large.png
+1 2 0 670224 0 0
+/images/android-icon-192x192.png
+1 8 0 47296 0 0
+/assets/images/galleries/sculpting-modelling/dragon-concept.jpg
+1 3 0 113137 0 0
+/assets/images/social/facebook.png
+1 15 0 86540 0 0
+/assets/images/social/instagram.png
+1 15 0 89340 0 0
+/assets/images/favicon/favicon-16x16.png
+1 11 0 10439 0 0
+/images/road.png
+1 23 0 7519897 0 0
+/assets/images/galleries/drawing-concepts/berkekiran-truth-coverimage.jpg
+1 1 0 31282 0 0
+/assets/fonts/fontawesome-webfont.woff2
+0 22 0 1509816 0 0
+/assets/images/galleries/sculpting-modelling/john-3dcharacter.jpg
+1 3 0 80939 0 0
+/images/favicon-16x16.png
+1 14 0 13580 0 0
+/images/favicon-96x96.png
+1 10 0 38070 0 0
+/images/website-version-0.70-beta.png
+1 24 0 1937400 0 0
+/assets/images/galleries/drawing-concepts/realistic-3d-road-on-ue4.jpg
+1 1 0 71180 0 0
+/assets/fonts/Lemon Tuesday.woff
+0 17 0 1938176 0 0
+/images/avatar.jpg
+1 24 0 283488 0 0
+/images/dragon-warrior03.png
+1 26 0 4906147 0 0
+/assets/js/jquery.scrollzer.min.js
+0 51 0 52479 0 0
+/images/adam-noise03.png
+1 21 0 1816668 0 0
+/images/apple-icon-72x72.png
+1 3 0 6693 0 0
+/assets/images/favicon/android-icon-192x192.png
+1 1 0 3605 0 0
+/assets/images/galleries/drawing-concepts/realistic-3d-road-on-ue4.png
+1 1 0 305586 0 0
+/resume
+0 5 0 47508 0 0
+/images/dragon-warrior02.png
+1 22 0 3648018 0 0
+/assets/images/galleries/drawing-concepts/silent-man-character-concept.png
+1 1 0 268625 0 0
+/assets/images/galleries/recent-work.png
+1 1 0 498631 0 0
+/images/favicon-32x32.png
+1 7 0 9863 0 0
+/images/website-version-1.00.png
+1 19 0 910575 0 0
+/images/dragon-warrior04.png
+1 24 0 5061384 0 0
+/assets/css/main.css
+0 53 0 1907346 0 0
+/images/blood-dragon02.png
+1 23 0 4394142 0 0
+/images/apple-icon-57x57.png
+1 6 0 11532 0 0
+/assets/js/jquery.min.js
+0 51 0 4893807 0 0
+/google6190d21367342e99.html
+0 2 0 106 2 0
+/images/apple-icon-60x60.png
+1 4 0 7976 0 0
+/images/banner.jpg
+1 23 0 23981189 0 0
+/images/dragon-warrior05-large.png
+1 1 0 560061 0 0
+/assets/images/social/twitter.png
+1 15 0 88695 0 0
+/images/heart.png
+1 24 0 74328 0 0
+/assets/css/main.min.css
+0 7 0 32830 0 0
+/
+0 153 0 1955696 112 37
+/images/apple-icon-76x76.png
+1 4 0 12440 0 0
+/assets/images/lcursor.png
+1 15 0 84560 0 0
+/images/apple-icon-144x144.png
+1 5 0 27430 0 0
+/assets/js/skel.min.js
+0 51 0 463284 0 0
+/assets/js/main.js
+0 51 0 128418 0 0
+/assets/images/galleries/recent-work.jpg
+1 14 0 911491 0 0
+/assets/images/profile.png
+1 1 0 287273 0 0
+/assets/js/jquery.scrolly.min.js
+0 51 0 42330 0 0
+/assets/js/util.js
+0 51 0 604197 0 0
+/stats/
+1 1 0 4829 0 0
+/assets/images/social/artstation.png
+1 15 0 104215 0 0
+/images/pic08.png
+1 18 0 1710342 0 0
+/robots.txt
+0 50 0 1150 0 0
+/assets/fonts/fontawesome-webfont.woff
+0 2 0 180824 0 0
+/images/dragon-warrior01.png
+1 21 0 1740648 0 0
+/assets/images/social/linkedin.png
+1 15 0 87150 0 0
+/images/dragon-warrior05.png
+1 24 0 3402960 0 0
+/assets/images/galleries/sculpting-modelling/john-3dcharacter.png
+1 1 0 183405 0 0
+/assets/images/galleries/drawing-concepts/silent-man-character-concept.jpg
+1 1 0 85340 0 0
+/video-showreel
+0 11 0 55318 0 0
+/assets/css/font-awesome.min.css
+0 29 0 842827 0 0
+/assets/css/featherlight.min.css
+0 43 0 66048 0 0
+/assets/images/social/github.png
+1 15 0 92050 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.249.64.87
+0 4 4 44514 0 0
+-
+91.189.112.7
+0 1 1 16604 1 1487153777
+/
+176.240.83.161
+0 714 573 50995998 16 1487213818
+/
+66.249.66.240
+0 2 0 1534 1 1486087491
+-
+5.255.250.93
+0 1 1 4488 0 0
+-
+66.249.89.138
+0 1 1 53 1 1487041715
+/google6190d21367342e99.html
+207.241.226.218
+0 1 1 23 0 0
+-
+54.81.49.165
+0 1 1 16604 1 1486862761
+/
+77.88.47.23
+0 1 1 23 0 0
+-
+66.249.64.78
+0 4 4 33254 2 1487107134
+/
+68.233.164.184
+0 1 1 16604 1 1486282795
+/
+100.43.91.11
+0 1 1 5912 0 0
+-
+66.249.66.222
+0 2 2 71995 0 0
+-
+66.249.69.162
+0 1 1 23 0 0
+-
+176.55.68.161
+0 1 0 767 0 0
+-
+199.21.99.213
+0 1 1 23 0 0
+-
+176.55.62.159
+0 2 0 1534 0 0
+-
+66.249.69.128
+0 3 3 88599 1 1486752298
+/
+141.8.143.230
+0 4 4 13667 0 0
+-
+77.88.47.33
+0 1 1 23 0 0
+-
+66.249.93.71
+0 76 72 1840698 1 1487183697
+/
+66.249.66.206
+0 7 7 74056 0 0
+-
+66.249.93.146
+0 1 1 4763 1 1487178785
+/
+141.8.143.241
+0 1 1 4488 0 0
+-
+198.15.114.122
+0 34 34 4007100 1 1486608726
+/
+77.88.47.1
+0 2 2 11274 0 0
+-
+141.8.143.152
+0 1 1 4315 0 0
+-
+77.88.47.114
+0 1 1 23 0 0
+-
+66.249.64.117
+0 1 0 767 1 1487107296
+-
+173.236.242.24
+0 1 1 16604 1 1486270090
+/
+66.249.93.73
+0 67 63 1981095 2 1487182628
+/
+199.16.157.180
+0 2 2 16627 1 1487158052
+/
+207.46.13.219
+0 1 1 23 0 0
+-
+218.241.108.76
+0 1 1 16604 1 1487151090
+/
+66.249.75.63
+0 2 2 16627 1 1486432835
+/
+69.58.178.56
+0 4 4 33254 1 1486728843
+/
+66.249.69.48
+0 1 1 23 0 0
+-
+199.21.99.209
+0 1 1 5486 0 0
+-
+77.88.47.12
+0 13 13 56493 2 1486377860
+/
+109.87.36.111
+0 1 1 16604 1 1486372313
+/
+119.36.47.68
+0 1 0 251 1 1486394977
+/
+52.25.122.161
+0 1 1 16604 1 1486750681
+/
+141.8.143.175
+0 1 1 5486 0 0
+-
+199.21.99.216
+0 1 1 2231 0 0
+-
+66.249.69.191
+0 1 1 23 0 0
+-
+163.172.35.247
+0 1 1 16604 1 1486438151
+/
+66.249.93.75
+0 68 65 1942075 2 1487183561
+/
+79.137.85.189
+0 1 1 16604 1 1487122069
+/
+108.61.157.159
+0 1 1 16604 1 1486109354
+/
+66.249.89.136
+0 1 0 767 1 1487041715
+-
+118.70.187.45
+0 1 1 16604 1 1486406994
+/
+66.249.69.40
+0 4 4 90135 1 1486769231
+/
+141.8.143.204
+0 3 3 10431 0 0
+-
+5.255.250.23
+0 1 1 23 0 0
+-
+37.9.118.29
+0 48 48 872988 6 1487036508
+/
+100.43.81.139
+0 3 3 14405 0 0
+-
+184.154.139.49
+0 60 40 775204 4 1486837031
+-
+61.100.9.212
+0 1 1 16604 1 1486308192
+/
+81.19.188.229
+0 10 10 51052 1 1487178915
+/about
+195.214.175.133
+0 38 38 4578289 1 1486220798
+/
+66.249.75.31
+0 1 0 767 1 1486670535
+-
+66.249.66.97
+0 2 2 541 0 0
+-
+131.253.38.67
+0 8 2 37810 2 1486764282
+/
+208.43.75.179
+0 1 1 16604 1 1486211986
+/
+77.88.47.77
+0 1 1 1922 0 0
+-
+77.88.47.104
+0 1 0 767 0 0
+-
+66.249.64.109
+0 1 0 767 1 1487107226
+-
+77.88.47.97
+0 1 1 23 0 0
+-
+66.249.64.167
+0 1 1 23 0 0
+-
+5.255.250.69
+0 1 1 16604 1 1486256867
+/
+141.8.143.195
+0 1 1 4488 0 0
+-
+100.43.91.15
+0 1 1 5788 0 0
+-
+188.163.107.174
+0 5 4 67183 1 1486471993
+-
+141.8.143.236
+0 1 1 23 0 0
+-
+178.62.84.185
+0 9 0 6903 0 0
+-
+77.88.47.32
+0 1 1 16604 1 1486401723
+/
+62.141.35.91
+0 1 1 16604 1 1486759399
+/
+77.88.47.68
+0 2 2 9022 0 0
+-
+184.154.139.50
+0 30 20 387602 2 1486061409
+-
+66.249.89.83
+0 1 1 53 1 1487099726
+/google6190d21367342e99.html
+176.55.54.27
+0 1 0 767 0 0
+-
+138.68.147.125
+0 9 0 6903 0 0
+-
+66.249.66.226
+0 3 3 18163 1 1486095142
+/
+213.180.206.198
+0 32 32 581992 4 1487151521
+/
+46.101.241.154
+0 7 0 5369 0 0
+-
+184.154.139.53
+0 45 30 581403 3 1487096374
+-
+66.249.75.34
+0 1 0 767 0 0
+-
+66.249.93.78
+0 14 14 1078204 0 0
+-
+95.85.26.30
+0 6 0 4602 0 0
+-
+66.249.93.39
+0 94 94 11227570 2 1486346755
+/
+5.255.250.47
+0 1 1 3807 0 0
+-
+94.8.170.74
+0 1 1 100509 0 0
+-
+66.249.75.37
+0 2 1 790 1 1486669939
+-
+66.249.66.236
+0 1 0 767 1 1486087521
+-
+66.249.69.131
+0 3 3 18163 1 1486919428
+/
+185.38.14.171
+0 1 1 16604 1 1486632732
+/
+66.249.93.80
+0 11 11 2526190 1 1486327244
+/
+64.246.165.140
+0 2 2 16627 1 1487001767
+/
+163.172.221.209
+0 1 1 16604 1 1486967886
+/
+37.9.118.24
+0 16 16 290996 2 1486360635
+/
+194.247.13.179
+0 1 1 16604 1 1486296401
+/
+66.249.93.41
+0 110 110 11134471 3 1486371132
+/
+66.249.69.156
+0 1 1 518 0 0
+-
+207.241.226.232
+0 1 1 16604 1 1486312315
+/
+66.249.64.83
+0 3 3 46804 1 1486855061
+/
+66.249.66.244
+0 1 1 23 0 0
+-
+77.88.47.86
+0 1 1 23 0 0
+-
+66.249.64.113
+0 2 1 790 0 0
+-
+141.8.143.178
+0 1 1 1922 0 0
+-
+100.43.91.10
+0 7 7 33566 1 1486519171
+/
+141.8.143.197
+0 1 1 1922 0 0
+-
+184.154.139.52
+0 110 63 1196859 6 1487182674
+-
+54.67.118.171
+0 1 1 16604 1 1486038670
+/
+66.249.64.159
+0 1 1 16604 1 1486839621
+/
+66.249.93.43
+0 94 94 13694099 2 1486323552
+/
+99.238.160.112
+0 1 1 16604 1 1486692897
+/
+192.36.27.7
+0 1 1 16604 1 1486715341
+/
+104.130.124.209
+0 2 2 33208 2 1487045961
+/
+5.255.250.79
+0 1 1 6925 0 0
+-
+66.249.93.145
+0 1 1 949 0 0
+-
+141.8.143.168
+0 1 1 1409 0 0
+-
+159.203.65.162
+0 2 2 33208 2 1486304914
+/
+66.249.93.82
+0 11 11 420280 1 1486201409
+/
+66.249.66.151
+0 1 1 23 0 0
+-
+100.43.85.1
+0 21 19 61579 2 1486911474
+/
+54.144.110.147
+0 1 1 6133 1 1487184666
+/soundtracks
+207.46.13.14
+0 2 2 1036 0 0
+-
+54.159.107.163
+0 3 3 69 0 0
+-
+77.88.47.79
+0 1 1 5912 0 0
+-
+100.43.91.14
+0 2 2 8122 0 0
+-
+5.254.65.123
+0 4 2 8303 1 1486201376
+/stats/
+100.43.91.3
+0 1 0 767 0 0
+-
+66.249.89.79
+0 1 0 767 1 1487099726
+-
+159.203.168.170
+0 1 0 767 0 0
+-
+66.249.66.210
+0 8 8 178227 3 1486253203
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+176.240.83.161
+0 19 15 153174 1 1487213818
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.berkekiran.net/assets/css/main.css
+1 4
+http://berkekiran.net/soundtracks
+1 17
+http://www.berkekiran.com
+0 1
+http://pizza-imperia.com/
+0 1
+http://berkekiran.net/about
+1 7
+https://google.ru/
+1 1
+http://berkekiran.net/recent-artwork
+1 6
+http://berkekiran.net
+1 1
+http://www.google.com/url
+1 61
+http://berkekiran.net/sculpting-modelling
+1 66
+http://pizza-tycoon.com/
+0 3
+http://berkekiran.net/assets/css/main.min.css
+1 33
+http://localhost/
+0 1
+http://localhost/recent-artwork
+0 1
+http://www.google.com/search
+1 2
+http://www.berkekiran.net/assets/css/font-awesome.min.css
+1 2
+https://secure.ipage.com/secureLogin
+1 1
+http://berkekiran.net/resume
+1 6
+http://www.berkekiran.net/
+1 67
+http://berkekiran.net/assets/images/galleries/recent-work.jpg
+1 1
+http://wp.berkekiran.net
+1 1
+http://berkekiran.net/drawing-concepts
+1 27
+www.berkekiran.net
+1 1
+http://test.berkekiran.net
+1 1
+- (Direct Request)
+0 522
+http://berkekiran.net/assets/css/font-awesome.min.css
+1 24
+https://www.google.co.uk/
+1 1
+Google
+2 65
+http://berkekiran.net/video-showreel
+1 16
+https://berkekirannet.ipage.com/stats/index.html
+1 2
+http://blog.berkekiran.net
+1 1
+http://berkekiran.net/
+1 962
+http://anonymizeme.pro/go/hide.cgi
+0 1
+https://www.linkedin.com/
+0 1
+https://outlook.live.com/
+0 1
+http://berkekiran.net/images/adam-noise03-large.png
+1 1
+http://berkekiran.net/blog/
+1 1
+http://berkekiran.net/assets/css/main.css
+1 87
+http://whois.domaintools.com/berkekiran.net
+1 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 1340
+MSIE 10.0
+0 1
+Twitterbot/1.0
+0 2
+Dalvik/2.1.0 (Linux; U; Android 7.1.1; General Mobile 4G Dual Build/N4F26P)
+0 25
+archive.o
+0 2
+Netscape 6 compatible
+2 1340
+SiteLockSpider [en] (WinNT; I ;Nav)
+0 184
+python-requests/2.9.1
+0 1
+Google-Site-Verification/1.0
+0 4
+G
+0 8
+MSIE 8.0
+0 1
+Dalvik/2.1.0 (Linux; U; Android 7.1.1; General Mobile 4G Dual Build/N4F26I)
+0 47
+ips-agent)"
+0 3
+MSIE 9.0
+0 62
+YandexMetrika/2.0
+0 96
+Googlebot/2.1
+0 55
+XML Sitemaps Generator
+0 10
+YandexBot/3.0
+0 85
+proximic
+0 4
+bingbot/2.0
+0 3
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+berkekirannet
+0 2 2 7296 1 1486201376
+# End Of Table - usernames

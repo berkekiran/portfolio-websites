@@ -1,0 +1,276 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-decoration: none;
+}
+@font-face {
+  font-family:'Roboto-Light';
+  src: url(../fonts/Roboto-Light.ttf);
+}
+#fullpage{
+  text-align: center;
+}
+#down{
+  position: absolute;
+  bottom: 20px;
+}
+#menu{
+  list-style: none;
+  position: fixed;
+  float: right;
+  right: 20px;
+  z-index: 2;
+  top:50%;
+  transform: translateY(-50%);
+}
+#homebutton{
+  background-image: url('../images/navigation/homebutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 57px;
+  width: 56px;
+  opacity: 0.5;
+}
+#homebutton:hover{
+  opacity:  1;
+}
+#aboutbutton{
+  background-image: url('../images/navigation/aboutbutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 57px;
+  width: 49px;
+  opacity: 0.5;
+}
+#aboutbutton:hover{
+  opacity:  1;
+}
+#projectsbutton{
+  background-image: url('../images/navigation/projectsbutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 46px;
+  opacity: 0.5;
+}
+#projectsbutton:hover{
+  opacity:  1;
+}
+#projectsbutton.active{
+  background-image: url('../images/navigation/projectsbutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#skillsbutton{
+  background-image: url('../images/navigation/skillsbutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 50px;
+  opacity: 0.5;
+}
+#skillsbutton:hover{
+  opacity:  1;
+}
+#skillsbutton.active{
+  background-image: url('../images/navigation/skillsbutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#homebutton.active{
+  background-image: url('../images/navigation/homebutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#aboutbutton.active{
+  background-image: url('../images/navigation/aboutbutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#thanksbutton.active{
+  background-image: url('../images/navigation/thanksbutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contactbutton.active{
+  background-image: url('../images/navigation/contactbutton_clicked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#menu li.active a:hover{
+  opacity: 1;
+}
+#menu li.active a{
+  opacity: 0.5;
+}
+#contactbutton{
+  background-image: url('../images/navigation/contactbutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 54px;
+  opacity: 0.5;
+}
+#contactbutton:hover{
+  opacity:  1;
+}
+#thanksbutton{
+  background-image: url('../images/navigation/thanksbutton.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 66px;
+  width: 53px;
+  opacity: 0.5;
+}
+#thanksbutton:hover{
+  opacity:  1;
+}
+#thankstext{
+  opacity: 0.6;
+}
+#copyright{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  opacity: 0.5;
+}
+#small_logo{
+  position: fixed;
+  z-index: 2;
+  float: left;
+  left:50px;
+  top:50px;
+  opacity: 0.5;
+}
+#small_logo:hover{
+  opacity: 1;
+}
+#contacttext{
+  opacity: 0.6;
+}
+#cutter{
+  margin-top:20px;
+  opacity: 0.8;
+}
+#contact_textbox1{
+  font-family:'Roboto-Light';
+  opacity: 0.5;
+  margin-top: 50px;
+  margin-right: 10px;
+  height: 25px;
+  width: 275px;
+  border: solid 2px;
+  color: white;
+  border-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top:10px;
+  border-style: solid;
+  padding-bottom: 10px;
+  font-size: 13pt;
+  outline: none;
+  background-color: transparent;
+  border-radius: 7px;
+}
+#contact_textbox2{
+  font-family:'Roboto-Light';
+  border-radius: 7px;
+  opacity: 0.5;
+  margin-top: 50px;
+  height: 25px;
+  width: 275px;
+  border: solid 2px;
+  color: white;
+  border-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size: 13pt;
+  outline: none;
+  border-style: solid;
+  background-color: transparent;
+}
+#contact_textbox3{
+  font-family:'Roboto-Light';
+  outline: none;
+  border-radius: 7px;
+  opacity: 0.5;
+  margin-right: 2px;
+  margin-top: 15px;
+  height: 200px;
+  border-style: solid;
+  width: 595px;
+  border: solid 2px;
+  color: white;
+  border-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size: 13pt;
+  background-color: transparent;
+}
+#contact_submit{
+  outline: none;
+  opacity: 0.5;
+  margin-right: 2px;
+  margin-top: 15px;
+  height: 56px;
+  width: 120px;
+  border: 0;
+  background-image: url('../images/submit.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#contact_submit:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+#contact_submit:active{
+  background-image: url('../images/submit_clicked.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#instagram{
+  opacity: 0.5;
+}
+#instagram2{
+  display:block;
+  margin-top: -6px;
+  opacity: 0.5;
+}
+#whoami{
+  display:block;
+  margin-left: 20px;
+  margin-top: 6px;
+  opacity: 0.5;
+}
+#skillsz{
+  opacity: 0.5;
+}
+#whatilike2{
+  opacity: 0.5;
+  width: 364px;
+}
+#whatilike{
+  opacity: 0.5;
+}
+#center{
+  margin: auto;
+}
+.like{
+ opacity: 0.5;
+}
+.whatilike3:hover{
+  opacity: 0.75;
+}
+.whatilike3{
+  opacity: 0.5;
+}
